@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "Guest lecture on Electronic Dance Music Production"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+type: "Guest lecture"
+permalink: /teaching/2021-fall-teaching-musi
+venue: "Georgia Tech, School of music"
 date: 2015-01-01
-location: "City, Country"
+location: "Atlanta, GA, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Guest lecture on production on electronic dance music within the class MUSI6103 by [Prof. Nat Condit-Schultz](https://music.gatech.edu/nat-condit-schultz).

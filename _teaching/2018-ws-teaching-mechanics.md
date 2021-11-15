@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2018-ws-teaching-mechanics.md
 venue: "University 1, Department"
-date: 2018
+date: 2018-01-01
 location: "Duisburg, Germany"
 ---
 
