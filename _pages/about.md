@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a graduate student studying engineering cybernetics at the [University of Stuttgart](https://www.uni-stuttgart.de/en/)
-and engineering science and mechanics at the [University of Stuttgart](https://www.gatech.edu/).
+and engineering science and mechanics at the [Georgia Institute of Technology](https://www.gatech.edu/).
 
 Currently, I am at Georgia Tech campus in Atlanta doing research under the supervision
 of [Prof. Laurence J. Jacobs](https://ce.gatech.edu/people/faculty/761/overview).
