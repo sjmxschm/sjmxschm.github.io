@@ -12,7 +12,7 @@ I am a graduate student studying engineering cybernetics at the [University of S
 and engineering science and mechanics at the [University of Stuttgart](https://www.gatech.edu/).
 
 Currently, I am at Georgia Tech campus in Atlanta doing research under the supervision
-of Prof [Laurence J. Jacobs](https://ce.gatech.edu/people/faculty/761/overview).
+of [Prof. Laurence J. Jacobs](https://ce.gatech.edu/people/faculty/761/overview).
 In my research here at Georgia Tech I am analyzing the use of machine learning with focus on convolutional
 neural networks for the inversion of ultrasonic waves in layered media with a thin coating.
 
