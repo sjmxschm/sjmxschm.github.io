@@ -11,6 +11,6 @@ redirect_from:
 
 Education
 ======
-* M.S. in Engineering Science and Mechanics, Georgia Institute of Technology, 2020 ongoing
-* M.Sc. candidate in Engineering Cybernetics, University of Stuttgart, 2019 ongoing
-* B.Sc. in Mechanical Engineering, University Duisburg-Essen, 2015 - 2019
+* M.S. in Engineering Science and Mechanics, Georgia Institute of Technology, 2020 - anticipated 2021
+* M.Sc. candidate in Engineering Cybernetics, University of Stuttgart, 2019 - anticipated 2022
+* B.Sc. in Mechanical Engineering, University Duisburg-Essen, 2015 - 2019 
