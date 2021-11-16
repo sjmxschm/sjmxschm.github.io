@@ -14,9 +14,9 @@ and engineering science and mechanics at the [Georgia Institute of Technology](h
 Currently, I am at Georgia Tech campus in Atlanta doing research under the supervision
 of [Prof. Laurence J. Jacobs](https://ce.gatech.edu/people/faculty/761/overview).
 In my research here at Georgia Tech I am analyzing the use of machine learning with focus on convolutional
-neural networks for the inversion of ultrasonic waves in layered media with a thin coating. I excelled at applying a computer vision based appraoch to material science.
+neural networks for the inversion of ultrasonic waves in layered media with a thin coating. I excelled at upscaling the necessary computations (FEM simulations, 2D-FFT postprocessing, CNN training) to use the Georgia Tech high performance cluster. This way, I applied a computer vision based approach to material science.
 
-Before I started my Master in Engineering Science and Mechanics, I started another master in engineering science and mechanics at the University of Stuttgart in Germany, focusing on autonomous systems and nonlinear dynamics. In Stuttgart, I worked for the [Institute of Nonlinear Dynamics](https://www.inm.uni-stuttgart.de) under the supervision of [Prof. David C. Remy](https://www.inm.uni-stuttgart.de/en/institut/employees/Remy/) on controlling and communcating with the quadrupedal robot RAMbi. I got proficient in controlling a real-time robot system.
+Before I started my Master in Engineering Science and Mechanics, I started another master in engineering science and mechanics at the University of Stuttgart in Germany, focusing on autonomous systems and nonlinear dynamics. In Stuttgart, I worked for the [Institute of Nonlinear Dynamics](https://www.inm.uni-stuttgart.de) under the supervision of [Prof. David C. Remy](https://www.inm.uni-stuttgart.de/en/institut/employees/Remy/) on controlling and communcating with the quadrupedal robot RAMbi. I got proficient in controlling a real-time robot system (EtherCAT, Simulink Real-Time).
 
 My research interests lay at the intersection of computer vision, machine learning (deep learning, reinforcement learning) and robotics.
 
