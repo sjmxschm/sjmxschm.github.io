@@ -8,6 +8,7 @@ venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Schmitz, Maximilian. (2021). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
+
 Paper is getting written currently and will be submitted asap. 
 This paper covers the inversion of uniform coating thicknesses with a data driven inversion procedure and is validated with an experimental measurement.
 
