@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: splash
 title: "Music"
 permalink: /music/
 author_profile: true
