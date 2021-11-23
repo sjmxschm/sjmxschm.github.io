@@ -1,6 +1,6 @@
 ---
-permalink: /
 title: "Music"
+permalink: /music/
 excerpt: "music"
 author_profile: true
 redirect_from: 
