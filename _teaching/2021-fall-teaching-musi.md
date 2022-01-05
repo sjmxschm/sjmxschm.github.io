@@ -8,7 +8,7 @@ date: 2021-11-23
 location: "Atlanta, GA, USA"
 ---
 
-Hold invited guest lecture on production of Electronic Dance Music (EDM) within the class MUSI6103 by [Prof. Nat Condit-Schultz](https://music.gatech.edu/nat-condit-schultz) at the Georgia Institute of Technology. EDM is a popular field of music, though the spread and popularity is limited in the US. My talk helped to give an understanding what EDM is, what is sounds like and what fundamental production methods exist.
+Hold invited guest lecture on production of Electronic Dance Music (EDM) within the class MUSI6103 by [Prof. Nat Condit-Schultz](https://music.gatech.edu/nat-condit-schultz) at the Georgia Institute of Technology. EDM is a popular field of music, though the spread and popularity is limited in the US. My talk helped to give an understanding of what EDM is, what it sounds like, and what fundamental production methods exist.
 
 The lecture consisted out of two parts:
 
