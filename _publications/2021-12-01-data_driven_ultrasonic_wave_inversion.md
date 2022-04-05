@@ -13,6 +13,6 @@ This research applies machine and deep learning to nondestructively characterize
 
 The paper was submitted to Wave Motion on 04/03/2022 and is currently under review.
 
-[Download paper here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/Machine_Learning_Inv_Max_Schmitz_Paper_Preprint_online.pdf.pdf)
+[Download paper here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/Machine_Learning_Inv_Max_Schmitz_Paper_Preprint_online.pdf)
 
 Recommended citation: Maximilian Schmitz, Jin-Yeon Kim, Laurence J. Jacobs. 2022. "Machine and Deep Learning for Coating Thickness Prediction using Lamb Waves." <i>Journal 1</i>. 1(1).
