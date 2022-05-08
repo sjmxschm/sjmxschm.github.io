@@ -1,10 +1,11 @@
 ---
 title: "Machine and Deep Learning for Coating Thickness Prediction using Lamb Waves"
 collection: publications
+type: Pre-Print
 permalink: /publication/2021-12-01-data_driven_ultrasonic_wave_inversion.md
-excerpt: 'This research investigates the use of machine and deep learning methods for wave inversion in nondestructive evaluation.'
-date: 2022-04-04
 venue: 'Wave Motion'
+date: 2022-04-04
+excerpt: 'This research investigates the use of machine and deep learning methods for wave inversion in nondestructive evaluation.'
 paperurl: 'https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/Machine_Learning_Inv_Max_Schmitz_Paper_Preprint_online.pdf'
 citation: 'Schmitz, Maximilian and Kim, Jin-Yeon, and Jacobs, Laurence J.. (2022). &quot;Machine and Deep Learning for Coating Thickness Prediction using Lamb Waves.&quot; <i>Wave Motion 1</i>. 1(1).'
 ---
