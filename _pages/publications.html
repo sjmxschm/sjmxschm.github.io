@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archiv
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -18,6 +18,7 @@ author_profile: true
 
 <!--
 --- 
+change to archiv from archive above!!
 layout: archiv
 title: "Teaching" 
 permalink: /teaching/ 
