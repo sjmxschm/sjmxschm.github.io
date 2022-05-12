@@ -16,7 +16,7 @@ Education
 * B.Sc. in Mechanical Engineering, University Duisburg-Essen, 2015 - 2019 
 
 
-Research Experience
+Research Experience:
 ======
 * Graduate Research Assistant Atlanta, GA, US
 ------
