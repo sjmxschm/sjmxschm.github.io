@@ -25,7 +25,7 @@ Research Experience:
   * Advisor: Prof. Laurence J. Jacobs
   
   
-### Semester-long Research Project Atlanta, GA, US
+### Semester-long Research Projec -t Atlanta, GA, US
   GEORGiA INSTiTUTE OF TECHNOLOGY, STATISTICAL MACHINE LEARNING: Aug 2020 - Dec 2020
   * Directed research team and developed strong leadership skills
   * Analyzed existing automatic controller tuning algorithm based on Gaussian processes (SafeOpt) and applied it to a quadcopter
@@ -33,17 +33,24 @@ Research Experience:
   * Proved that save automatic controller gain tuning can be applied to controllers with numerous DOFs
   * Advisor: Prof. Matthieu R. Bloch
 
-### Graduate Research Assistant Stuttgart, Germany
+### Graduate Research Assistant - Stuttgart, Germany
   UNiVERSiTY OF STUTTGART, INSTITUTE OF NONLINEAR DYNAMICS: Dec 2019 - Dec 2020
   * Set up computer-motor system to control quadrupedal robot
   * Expanded control algorithm and communication protocol with TwinCAT via EtherCAT
   * Gained experience in working with robotic hardware
   * Advisor: Prof. David C. Remy
   
-### Semester-long Research Project Stuttgart, Germany
-  UNiVERSiTY OF STUTTGART, PROJECT COMPETITION ADVANCED CONCEPTS OF CONTROL THEORY: Mar 2020 - Oct 2020
+### Semester-long Research Project - Stuttgart, Germany
+  UNIVERSITY OF STUTTGART, PROJECT COMPETITION ADVANCED CONCEPTS OF CONTROL THEORY: Mar 2020 - Oct 2020
   * Worked in team of two students
   * Designed a non-linear state-feedback controller for single track vehicle model that steers along a racetrack
   * Optimized trajectory with a race trajectory optimization toolbox
   * Finished at 2nd place with distinction out of 37 groups
   * Advisor: Prof. Frank Allg&ouml;wer
+  
+### Semester-long Research Project - Stuttgart, Germany
+  UNIVERSITY OF STUTTGART, STATISTICAL LEARNING AND STOCHASTIC CONTROL: Oct 2019 - Mar 2020
+  * Led research team and developed strong leadership skills
+  * Identified use of vector valued Gaussian Processes from Bayesian perspective to approximate multi-dimensional functions
+  * Evaluated different methods to construct the covariance matrix for multi-dimensional Gaussian Processes
+  * Advisors: Prof. Sebastian Trimpe and Prof. Christian Ebenbauer
