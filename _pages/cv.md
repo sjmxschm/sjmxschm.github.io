@@ -61,3 +61,9 @@ Research Experience:
   * Developed LQG controller and applied it to real physical system
   * Advisor: Prof. Frank Allg&ouml;wer  
   
+### Undergraduate Research Assistant - Duisburg, Germany
+  UNIVERSITY OF DUISBURG-ESSEN, CHAIR OF MECHANICS AND ROBOTICS: May 2017 - Dec 2018
+  * Substitute lecturer in 300+ student class (Mechanics 2)
+  * Creation of various graphs for research funding applications
+  * Supported planning for ECCOMAS Multibody Dynamics Conference 2019
+  * Advisor: Prof. Andr&eacute;s Kecskem&eacute;thy
