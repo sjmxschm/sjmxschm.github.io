@@ -61,7 +61,6 @@ Research Experience:
   * Modelled and simulated mechanical-electrical 3 DOF helicopter
   * Developed LQG controller and applied it to real physical system
   * Advisor: Prof. Frank Allg&ouml;wer
-  
 
 ### Undergraduate Research Assistant - Duisburg, Germany
   UNIVERSITY OF DUISBURG-ESSEN, CHAIR OF MECHANICS AND ROBOTICS: May 2017 - Dec 2018
