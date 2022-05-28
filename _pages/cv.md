@@ -15,6 +15,7 @@ Education
 * M.S. in Engineering Science and Mechanics, Georgia Institute of Technology, 2020 - 2022
 * B.Sc. in Mechanical Engineering, University Duisburg-Essen, 2015 - 2019 
 
+test test
 
 Research Experience:
 ======
