@@ -24,9 +24,8 @@ Research Experience:
   * Trained ConvNets for a deep learning based inversion on PACE cluster
   * Advisor: Prof. Laurence J. Jacobs
   
-  
 ### Semester-long Research Projec -t Atlanta, GA, US
-  GEORGiA INSTiTUTE OF TECHNOLOGY, STATISTICAL MACHINE LEARNING: Aug 2020 - Dec 2020
+  GEORGIA INSTITUTE OF TECHNOLOGY, STATISTICAL MACHINE LEARNING: Aug 2020 - Dec 2020
   * Directed research team and developed strong leadership skills
   * Analyzed existing automatic controller tuning algorithm based on Gaussian processes (SafeOpt) and applied it to a quadcopter
   simulation model
@@ -55,23 +54,3 @@ Research Experience:
   * Evaluated different methods to construct the covariance matrix for multi-dimensional Gaussian Processes
   * Advisors: Prof. Sebastian Trimpe and Prof. Christian Ebenbauer
   
-### Semester-long Research Project - Stuttgart, Germany
-  UNIVERSITY OF STUTTGART, ADVANCED CONCEPTS OF CONTROL THEORY: LAB Mar 2020 - Oct 2020
-  * Guided team out of three students
-  * Modelled and simulated mechanical-electrical 3 DOF helicopter
-  * Developed LQG controller and applied it to real physical system
-  * Advisor: Prof. Frank Allg&ouml;wer
-
-### Undergraduate Research Assistant - Duisburg, Germany
-  UNIVERSITY OF DUISBURG-ESSEN, CHAIR OF MECHANICS AND ROBOTICS: May 2017 - Dec 2018
-  * Substitute lecturer in 300+ student class (Mechanics 2)
-  * Creation of various graphs for research funding applications
-  * Supported planning for ECCOMAS Multibody Dynamics Conference 2019
-  * Advisor: Prof. Andr&eacute;s Kecskem&eacute;thy
-
-### Semester Long Research Project - Duisburg, Germany
-  UNIVERSITY OF DUISBURG-ESSEN, CAPSTONE PROJECT MECHATRONS: May 2017 - Dec 2018
-  * Developed basic heat control system for charcoal BBQ grill
-  * Implemented web interface to control and monitor grill temperatures wirelessly from cell phone
-  * Integrated automatic flipping mechanism for grilled food
-  * Advisor: Prof. Dieter Schramm
