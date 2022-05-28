@@ -41,9 +41,9 @@ Research Experience:
   * Advisor: Prof. David C. Remy
   
 ### Semester-long Research Project Stuttgart, Germany
-  UNiVERSiTY OF STUTTGART, PROJECT COMPETiTiON ADVANCED CONCEPTS OF CONTROL THEORY Mar 2020 - Oct 2020
+  UNiVERSiTY OF STUTTGART, PROJECT COMPETITION ADVANCED CONCEPTS OF CONTROL THEORY: Mar 2020 - Oct 2020
   * Worked in team of two students
   * Designed a non-linear state-feedback controller for single track vehicle model that steers along a racetrack
   * Optimized trajectory with a race trajectory optimization toolbox
   * Finished at 2nd place with distinction out of 37 groups
-  * Advisor: Prof. Frank Allgöwer
+  * Advisor: Prof. Frank Allg&ouml;wer
