@@ -17,8 +17,8 @@ Education
 
 Research Experience:
 ======
-### Graduate Research Assistant Atlanta, GA, US
-  GEORGIA INSTITUTE OF TECHNOLOGY, NONDESTRUCTIVE EVALUATiON LAB: Aug 2020 - Dec 2021
+### Graduate Research Assistant - Atlanta, GA, US
+  GEORGIA INSTITUTE OF TECHNOLOGY, NONDESTRUCTIVE EVALUATION LAB: Aug 2020 - Dec 2021
   * Developed a data driven machine learning algorithm to predict coating thicknesses for thin coatings
   * Learned to scale computations for the Georgia Tech high performance cluster (PACE)
   * Trained ConvNets for a deep learning based inversion on PACE cluster
@@ -26,7 +26,7 @@ Research Experience:
   
   
 ### Semester-long Research Project Atlanta, GA, US
-  GEORGiA INSTiTUTE OF TECHNOLOGY, STATiSTiCAL MACHiNE LEARNiNG: Aug 2020 - Dec 2020
+  GEORGiA INSTiTUTE OF TECHNOLOGY, STATISTICAL MACHINE LEARNING: Aug 2020 - Dec 2020
   * Directed research team and developed strong leadership skills
   * Analyzed existing automatic controller tuning algorithm based on Gaussian processes (SafeOpt) and applied it to a quadcopter
   simulation model
@@ -34,8 +34,16 @@ Research Experience:
   * Advisor: Prof. Matthieu R. Bloch
 
 ### Graduate Research Assistant Stuttgart, Germany
-  UNiVERSiTY OF STUTTGART, INSTiTUTE OF NONLiNEAR DYNAMiCS: Dec 2019 - Dec 2020
+  UNiVERSiTY OF STUTTGART, INSTITUTE OF NONLINEAR DYNAMICS: Dec 2019 - Dec 2020
   * Set up computer-motor system to control quadrupedal robot
   * Expanded control algorithm and communication protocol with TwinCAT via EtherCAT
   * Gained experience in working with robotic hardware
   * Advisor: Prof. David C. Remy
+  
+### Semester-long Research Project Stuttgart, Germany
+  UNiVERSiTY OF STUTTGART, PROJECT COMPETiTiON ADVANCED CONCEPTS OF CONTROL THEORY Mar 2020 - Oct 2020
+  * Worked in team of two students
+  * Designed a non-linear state-feedback controller for single track vehicle model that steers along a racetrack
+  * Optimized trajectory with a race trajectory optimization toolbox
+  * Finished at 2nd place with distinction out of 37 groups
+  * Advisor: Prof. Frank Allgöwer
