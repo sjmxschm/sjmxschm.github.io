@@ -67,3 +67,10 @@ Research Experience:
   * Creation of various graphs for research funding applications
   * Supported planning for ECCOMAS Multibody Dynamics Conference 2019
   * Advisor: Prof. Andr&eacute;s Kecskem&eacute;thy
+  
+### Semester Long Research Project - Duisburg, Germany
+  UNIVERSITY OF DUISBURG-ESSEN, CAPSTONE PROJECT MECHATRONS: May 2017 - Dec 2018
+  * Developed basic heat control system for charcoal BBQ grill
+  * Implemented web interface to control and monitor grill temperatures wirelessly from cell phone
+  * Integrated automatic flipping mechanism for grilled food
+  * Advisor: Prof. Dieter Schramm
