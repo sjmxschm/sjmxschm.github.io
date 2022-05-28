@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: compress
 title: "Music"
 permalink: /music/
 author_profile: true

@@ -17,10 +17,10 @@ Education
 
 Research Experience:
 ======
-* Graduate Research Assistant Atlanta, GA, US
+Graduate Research Assistant Atlanta, GA, US
 ------
-GEORGIA INSTITUTE OF TECHNOLOGY, NONDESTRUCTIVE EVALUATiON LAB Aug 2020 - Dec 2021
-. Developed a data driven machine learning algorithm to predict coating thicknesses for thin coatings
-. Learned to scale computations for the Georgia Tech high performance cluster (PACE)
-. Trained ConvNets for a deep learning based inversion on PACE cluster
-. Advisor: Prof. Laurence J. Jacobs
+  GEORGIA INSTITUTE OF TECHNOLOGY, NONDESTRUCTIVE EVALUATiON LAB Aug 2020 - Dec 2021
+  * Developed a data driven machine learning algorithm to predict coating thicknesses for thin coatings
+  * Learned to scale computations for the Georgia Tech high performance cluster (PACE)
+  * Trained ConvNets for a deep learning based inversion on PACE cluster
+  * Advisor: Prof. Laurence J. Jacobs
