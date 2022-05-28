@@ -54,3 +54,10 @@ Research Experience:
   * Evaluated different methods to construct the covariance matrix for multi-dimensional Gaussian Processes
   * Advisors: Prof. Sebastian Trimpe and Prof. Christian Ebenbauer
   
+### Semester-long Research Project - Stuttgart, Germany
+  UNIVERSITY OF STUTTGART, ADVANCED CONCEPTS OF CONTROL THEORY: LAB Mar 2020 - Oct 2020
+  * Guided team out of three students
+  * Modelled and simulated mechanical-electrical 3 DOF helicopter
+  * Developed LQG controller and applied it to real physical system
+  * Advisor: Prof. Frank Allg&ouml;wer  
+  
