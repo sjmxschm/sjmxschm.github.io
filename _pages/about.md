@@ -20,4 +20,4 @@ My research interests lay at the intersection of computer vision, machine learni
 
 When I am not working on my research, I most probably produce music, practice playing piano or work as a DJ/freelance music producer.
 
-[^1]: Currently, the corresponding paper is under review. You can download the preprint on my publications page or [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/Machine_Learning_Inv_Max_Schmitz_Paper_Preprint_online.pdf) thought. My corresponding thesis that gives more background information, but contains roughly the same, can be found [here](https://smartech.gatech.edu/handle/1853/64085).
+[^1]: Currently, the corresponding paper is under review. You can download the preprint on my publications page or [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/Machine_Learning_Inv_Max_Schmitz_Paper_Preprint_online.pdf) thought. My corresponding thesis that gives more background information, but contains roughly the same, can be found [here](https://smartech.gatech.edu/bitstream/handle/1853/66518/SCHMITZ-THESIS-2022.pdf?sequence=1).
