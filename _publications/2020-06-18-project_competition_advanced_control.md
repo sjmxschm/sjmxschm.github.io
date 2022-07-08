@@ -6,7 +6,7 @@ excerpt: 'This paper worked as a final project report for the engineering cybern
 date: 2020-06-18
 venue: '(unpublished)'
 paperurl: 'https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/KRT_reportGroup20.pdf'
-citation: 'Schmitz, Maximilian, Ruehle, Josias. (2020). &quot;Project Report: Optimize a Single Track Vehicle Model with Non-linear State-Feedback Controller .&quot; <i>(unpublished)</i>. 1(1).'
+citation: 'Schmitz, Maximilian, Ruehle, Josias. (2020). &quot;Project Report: Optimize a Single Track Vehicle Model with Non-linear State-Feedback Controller .&quot; <i>(unpublished)</i>.'
 ---
 
 This paper worked as a final project report for the engineering cybernetics graduate project competition in advanced concepts of control theory. It describes a the development of the used control algorithms as well as the optimization of the race trajectory.
