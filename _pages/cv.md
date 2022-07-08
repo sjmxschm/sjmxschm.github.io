@@ -12,20 +12,21 @@ redirect_from:
 Education
 ======
 * M.Sc. candidate in Engineering Cybernetics, University of Stuttgart, 2019 - 2022 (anticipated)
+* M.Sc. exchange semester in Computer Engineering, University of Padua, 2022
 * M.S. in Engineering Science and Mechanics, Georgia Institute of Technology, 2020 - 2022
 * B.Sc. in Mechanical Engineering, University Duisburg-Essen, 2015 - 2019 
 
 Research Experience:
 ======
 ### Graduate Research Assistant - Atlanta, GA, US
-  GEORGIA INSTITUTE OF TECHNOLOGY, NONDESTRUCTIVE EVALUATION LAB: Aug 2020 - Dec 2021
+  *Georgia Institute of Technology, Nondestructive Evaluation Lab*: Aug 2020 - Dec 2021
   * Developed a data driven machine learning algorithm to predict coating thicknesses for thin coatings
   * Learned to scale computations for the Georgia Tech high performance cluster (PACE)
   * Trained ConvNets for a deep learning based inversion on PACE cluster
   * Advisor: Prof. Laurence J. Jacobs
   
-### Semester-long Research Projec -t Atlanta, GA, US
-  GEORGIA INSTITUTE OF TECHNOLOGY, STATISTICAL MACHINE LEARNING: Aug 2020 - Dec 2020
+### Semester-long Research Project - Atlanta, GA, US
+  *Georgia Institute of Technology, Statistical Machine Learning*: Aug 2020 - Dec 2020
   * Directed research team and developed strong leadership skills
   * Analyzed existing automatic controller tuning algorithm based on Gaussian processes (SafeOpt) and applied it to a quadcopter
   simulation model
@@ -33,14 +34,14 @@ Research Experience:
   * Advisor: Prof. Matthieu R. Bloch
 
 ### Graduate Research Assistant - Stuttgart, Germany
-  UNiVERSiTY OF STUTTGART, INSTITUTE OF NONLINEAR DYNAMICS: Dec 2019 - Dec 2020
+  *Universit of Stuttgart, Institute of Nonlinear Dynamics*: Dec 2019 - Dec 2020
   * Set up computer-motor system to control quadrupedal robot
   * Expanded control algorithm and communication protocol with TwinCAT via EtherCAT
   * Gained experience in working with robotic hardware
   * Advisor: Prof. David C. Remy
   
 ### Semester-long Research Project - Stuttgart, Germany
-  UNIVERSITY OF STUTTGART, PROJECT COMPETITION ADVANCED CONCEPTS OF CONTROL THEORY: Mar 2020 - Oct 2020
+  *University of Stuttgart, Project Competition Advanced Concepts of Control Theory*: Mar 2020 - Oct 2020
   * Worked in team of two students
   * Designed a non-linear state-feedback controller for single track vehicle model that steers along a racetrack
   * Optimized trajectory with a race trajectory optimization toolbox
