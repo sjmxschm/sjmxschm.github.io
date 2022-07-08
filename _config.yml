@@ -87,7 +87,7 @@ author:
   location         : "Padua, Italy" # "Atlanta"
   employer         : "Georgia Tech"	
   pubmed           : 
-  googlescholar    :  # ""
+  googlescholar    :  https://scholar.google.com/citations?user=tfunx2sAAAAJ&hl=en # ""
   email            :  "m.schmitz096@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
