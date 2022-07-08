@@ -1,7 +1,6 @@
 ---
-title: "Machine and Deep Learning for Coating Thickness Prediction using Lamb Waves"
+title: "Gaussian Processes for Automatic Controller Gains Tuning in Robotics and Control"
 collection: publications
-type: "Pre-Print"
 permalink: /publication/2021-15-12-automatic_controller_gains_tuning.md
 date: 2022-15-12
 location: "Atlanta, GA"
