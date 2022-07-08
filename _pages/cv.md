@@ -49,28 +49,28 @@ Research Experience:
   * Advisor: Prof. Frank Allg&ouml;wer
   
 ### Semester-long Research Project - Stuttgart, Germany
-  UNIVERSITY OF STUTTGART, STATISTICAL LEARNING AND STOCHASTIC CONTROL: Oct 2019 - Mar 2020
+  *University of Stuttgart, Statistical Learning and Stochastic Control*: Oct 2019 - Mar 2020
   * Led research team and developed strong leadership skills
   * Identified use of vector valued Gaussian Processes from Bayesian perspective to approximate multi-dimensional functions
   * Evaluated different methods to construct the covariance matrix for multi-dimensional Gaussian Processes
   * Advisors: Prof. Sebastian Trimpe and Prof. Christian Ebenbauer
   
 ### Semester-long Research Project - Stuttgart, Germany
-  UNIVERSITY OF STUTTGART, ADVANCED CONCEPTS OF CONTROL THEORY: LAB Mar 2020 - Oct 2020
+  *University of Stuttgart, Advanced Concepts of Control Theory*: LAB Mar 2020 - Oct 2020
   * Guided team out of three students
   * Modelled and simulated mechanical-electrical 3 DOF helicopter
   * Developed LQG controller and applied it to real physical system
   * Advisor: Prof. Frank Allg&ouml;wer  
   
 ### Undergraduate Research Assistant - Duisburg, Germany
-  UNIVERSITY OF DUISBURG-ESSEN, CHAIR OF MECHANICS AND ROBOTICS: May 2017 - Dec 2018
+  *University of Duisburg-Essen, Chair of Mechanics and Robotics*: May 2017 - Dec 2018
   * Substitute lecturer in 300+ student class (Mechanics 2)
   * Creation of various graphs for research funding applications
   * Supported planning for ECCOMAS Multibody Dynamics Conference 2019
   * Advisor: Prof. Andr&eacute;s Kecskem&eacute;thy
   
 ### Semester Long Research Project - Duisburg, Germany
-  UNIVERSITY OF DUISBURG-ESSEN, CAPSTONE PROJECT MECHATRONS: May 2017 - Dec 2018
+  *University of Duisburg-Essen, Capstone Project Mechatronics*: May 2017 - Dec 2018
   * Developed basic heat control system for charcoal BBQ grill
   * Implemented web interface to control and monitor grill temperatures wirelessly from cell phone
   * Integrated automatic flipping mechanism for grilled food
