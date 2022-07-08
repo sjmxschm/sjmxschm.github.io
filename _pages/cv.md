@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+You can find my eduation and research experience below. My full CV can be found [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2022.pdf).
+
 Education
 ======
 * M.Sc. candidate in Engineering Cybernetics, University of Stuttgart, 2019 - 2022 (anticipated)
