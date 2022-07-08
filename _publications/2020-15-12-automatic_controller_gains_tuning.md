@@ -2,7 +2,7 @@
 title: "Gaussian Processes for Automatic Controller Gains Tuning in Robotics and Control"
 collection: publications
 permalink: /publication/2021-15-12-automatic_controller_gains_tuning.md
-date: 2022-15-12
+date: 2022-12-15
 location: "Atlanta, GA"
 venue: "(unpublished)"
 excerpt: "This paper was the final documentation in the class ECE6254 Statistical Machine Learning and describes the use of Gaussian processes for automatic and safe controller gains tuning."
