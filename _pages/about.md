@@ -11,7 +11,7 @@ redirect_from:
 I am a German-American graduate student studying engineering cybernetics at the [University of Stuttgart](https://www.uni-stuttgart.de/en/)
 and just graduated with a master's in engineering science and mechanics from the [Georgia Institute of Technology](https://www.gatech.edu/).
 
-This year, I did doing an exchange semester studying information engineering at the University of Padua in Italy, which gave me the opportunity to dive into the fascinating world of natural language processing while connecting with another European culture.
+This year, I did an exchange semester studying information engineering at the University of Padua in Italy, which gave me the opportunity to dive into the fascinating world of natural language processing while connecting with another European culture.
 
 Previously, I was at the Georgia Tech campus in Atlanta doing research under the supervision of [Prof. Laurence J. Jacobs](https://ce.gatech.edu/people/faculty/761/overview).
 In my research at Georgia Tech, I was analyzing the use of machine learning with focus on convolutional neural networks for the inversion of ultrasonic waves in layered media with a thin coating. I excelled at upscaling the necessary computations (FEM simulations, 2D-FFT postprocessing, CNN training) to use the Georgia Tech high performance cluster. This way, I applied a computer vision based approach to material science.[^1]
