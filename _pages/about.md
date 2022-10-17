@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+??? &rarr; Searching for and applying for PhD positions in robotics and machine learning starting in fall 2023.???
+
 I am a German-American graduate student studying engineering cybernetics at the [University of Stuttgart](https://www.uni-stuttgart.de/en/)
 and just graduated with a master's in engineering science and mechanics from the [Georgia Institute of Technology](https://www.gatech.edu/) in the spring of 2022.
 
