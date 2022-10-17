@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<p>&#9888; <strong>Searching for and applying for PhD positions in robotics and machine learning starting in fall 2023. If you know someone who knows someone, please <a href="mailto:m.schmitz096@outlook.com">send me a message</a>!</strong> </p>
+<p>&#9888; <strong>Searching for and applying for PhD positions in robotics and machine learning starting in fall 2023. If you know someone who knows someone, please <a href="mailto:m.schmitz096@outlook.com">send me a message</a>!</strong>&#9888; </p>
 
 I am a German-American graduate student studying engineering cybernetics at the [University of Stuttgart](https://www.uni-stuttgart.de/en/)
 and just graduated with a master's in engineering science and mechanics from the [Georgia Institute of Technology](https://www.gatech.edu/) in the spring of 2022.
