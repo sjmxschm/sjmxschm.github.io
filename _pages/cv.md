@@ -27,7 +27,7 @@ Research Experience:
   * Trained ConvNets for a deep learning based inversion on PACE cluster
   * Advisor: Prof. Laurence J. Jacobs
   
-### Semester-long Research Project - Atlanta, GA, US
+### Research Project - Atlanta, GA, US
   *Georgia Institute of Technology, Statistical Machine Learning*: Aug 2020 - Dec 2020
   * Directed research team and developed strong leadership skills
   * Analyzed existing automatic controller tuning algorithm based on Gaussian processes (SafeOpt) and applied it to a quadcopter
@@ -42,7 +42,7 @@ Research Experience:
   * Gained experience in working with robotic hardware
   * Advisor: Prof. David C. Remy
   
-### Semester-long Research Project - Stuttgart, Germany
+### Research Project - Stuttgart, Germany
   *University of Stuttgart, Project Competition Advanced Concepts of Control Theory*: Mar 2020 - Oct 2020
   * Worked in team of two students
   * Designed a non-linear state-feedback controller for single track vehicle model that steers along a racetrack
@@ -50,14 +50,14 @@ Research Experience:
   * Finished at 2nd place with distinction out of 37 groups
   * Advisor: Prof. Frank Allg&ouml;wer
   
-### Semester-long Research Project - Stuttgart, Germany
+### Research Project - Stuttgart, Germany
   *University of Stuttgart, Statistical Learning and Stochastic Control*: Oct 2019 - Mar 2020
   * Led research team and developed strong leadership skills
   * Identified use of vector valued Gaussian Processes from Bayesian perspective to approximate multi-dimensional functions
   * Evaluated different methods to construct the covariance matrix for multi-dimensional Gaussian Processes
   * Advisors: Prof. Sebastian Trimpe and Prof. Christian Ebenbauer
   
-### Semester-long Research Project - Stuttgart, Germany
+### Research Project - Stuttgart, Germany
   *University of Stuttgart, Advanced Concepts of Control Theory*: LAB Mar 2020 - Oct 2020
   * Guided team out of three students
   * Modelled and simulated mechanical-electrical 3 DOF helicopter
@@ -71,7 +71,7 @@ Research Experience:
   * Supported planning for ECCOMAS Multibody Dynamics Conference 2019
   * Advisor: Prof. Andr&eacute;s Kecskem&eacute;thy
   
-### Semester Long Research Project - Duisburg, Germany
+### Research Project - Duisburg, Germany
   *University of Duisburg-Essen, Capstone Project Mechatronics*: May 2017 - Dec 2018
   * Developed basic heat control system for charcoal BBQ grill
   * Implemented web interface to control and monitor grill temperatures wirelessly from cell phone
