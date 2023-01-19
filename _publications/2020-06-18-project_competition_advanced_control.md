@@ -1,7 +1,7 @@
 ---
 title: "Project Report: Optimize a Single Track Vehicle Model with Non-linear State-Feedback Controller (unpublished)"
 collection: publications
-permalink: /publication/2020-06-18-project_competition_advanced_control.md
+permalink: /publication/2020-06-18-project_competition_advanced_control
 excerpt: 'This paper worked as a final project report for the engineering cybernetics graduate project competition in advanced concepts of control theory. It describes a the development of the used control algorithms as well as the optimization of the race trajectory.'
 date: 2020-06-18
 venue: '(unpublished)'

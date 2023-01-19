@@ -1,7 +1,7 @@
 ---
 title: "Gaussian Processes for Automatic Controller Gains Tuning in Robotics and Control (unpublished)"
 collection: publications
-permalink: /publication/2021-15-12-automatic_controller_gains_tuning.md
+permalink: /publication/2021-15-12-automatic_controller_gains_tuning
 date: 2020-12-15
 location: "Atlanta, GA"
 venue: "(unpublished)"
