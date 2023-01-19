@@ -13,7 +13,7 @@ You can find my eduation and research experience below. My full CV can be found 
 
 Education
 ======
-* M.Sc. candidate in Engineering Cybernetics, University of Stuttgart, 2019 - 2022 (anticipated)
+* M.Sc. candidate in Engineering Cybernetics, University of Stuttgart, 2019 - 2023 (anticipated)
 * M.Sc. exchange semester in Computer Engineering, University of Padua, 2022
 * M.S. in Engineering Science and Mechanics, Georgia Institute of Technology, 2020 - 2022
 * B.Sc. in Mechanical Engineering, University Duisburg-Essen, 2015 - 2019 
