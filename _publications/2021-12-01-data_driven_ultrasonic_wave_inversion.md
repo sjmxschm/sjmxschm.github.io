@@ -2,7 +2,7 @@
 title: "Machine and Deep Learning for Coating Thickness Prediction using Lamb Waves"
 collection: publications
 type: "Pre-Print"
-permalink: /publication/2021-12-01-data_driven_ultrasonic_wave_inversion.md
+permalink: /publication/2021-12-01-data_driven_ultrasonic_wave_inversion
 venue: "revised and resubmit at Wave Motion"
 date: 2022-04-04
 location: "Atlanta, GA"
