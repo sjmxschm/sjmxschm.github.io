@@ -113,7 +113,7 @@ Below is a summary of my education, research, and professional experience. You c
 ## Personal Interests  
 
 - **Sports:** MMA, Muay Thai, Skiing, Scuba Diving  
-- **Music:** Piano, Music Production (Spotify & SoundCloud)  
+- **Music:** Piano, Music Production ([Spotify](https://open.spotify.com/intl-de/artist/34vYufP5UYwhMAqZiPeeEq?si=_vecPXrWTNau0obkNsv37Q) & [SoundCloud](https://soundcloud.com/makz-969860584))  
 
 ---
 
