@@ -9,71 +9,112 @@ redirect_from:
 
 {% include base_path %}
 
-You can find my eduation and research experience below. My full CV can be found [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2022.pdf).
+Below is a summary of my education, research, and professional experience. You can also download the **full version of my CV [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2024.pdf).**
 
-Education
-======
-* M.Sc. candidate in Engineering Cybernetics, University of Stuttgart, 2019 - 2023 (anticipated)
-* M.Sc. exchange semester in Computer Engineering, University of Padua, 2022
-* M.S. in Engineering Science and Mechanics, Georgia Institute of Technology, 2020 - 2022
-* B.Sc. in Mechanical Engineering, University Duisburg-Essen, 2015 - 2019 
+## Education  
+- **M.Sc. in Engineering Cybernetics**, University of Stuttgart, Germany (2019 – 2023)  
+  Focus: Nonlinear Dynamics, Control Systems, Autonomous Systems  
+  Advisor: Prof. David C. Remy  
+- **Erasmus Exchange Program**, University of Padua, Italy (Feb 2022 – Aug 2022)  
+  Focus: Robotics, Natural Language Processing  
+- **M.S. in Engineering Science and Mechanics**, Georgia Institute of Technology, USA (2020 – 2022)  
+  Focus: Deep Learning, Computer Vision, Wave Propagation  
+  Advisor: Prof. Laurence J. Jacobs  
+- **B.Sc. in Mechanical Engineering**, University of Duisburg-Essen, Germany (2015 – 2019)  
+  Concentration: Mechatronics (Top 3.9% of graduates)  
+  Advisor: Prof. Andrés Kecskeméthy  
 
-Research Experience:
-======
-### Graduate Research Assistant - Atlanta, GA, US
-  *Georgia Institute of Technology, Nondestructive Evaluation Lab*: Aug 2020 - Dec 2021
-  * Developed a data driven machine learning algorithm to predict coating thicknesses for thin coatings
-  * Learned to scale computations for the Georgia Tech high performance cluster (PACE)
-  * Trained ConvNets for a deep learning based inversion on PACE cluster
-  * Advisor: Prof. Laurence J. Jacobs
-  
-### Research Project - Atlanta, GA, US
-  *Georgia Institute of Technology, Statistical Machine Learning*: Aug 2020 - Dec 2020
-  * Directed research team and developed strong leadership skills
-  * Analyzed existing automatic controller tuning algorithm based on Gaussian processes (SafeOpt) and applied it to a quadcopter
-  simulation model
-  * Proved that save automatic controller gain tuning can be applied to controllers with numerous DOFs
-  * Advisor: Prof. Matthieu R. Bloch
+---
 
-### Graduate Research Assistant - Stuttgart, Germany
-  *Universit of Stuttgart, Institute of Nonlinear Dynamics*: Dec 2019 - Dec 2020
-  * Set up computer-motor system to control quadrupedal robot
-  * Expanded control algorithm and communication protocol with TwinCAT via EtherCAT
-  * Gained experience in working with robotic hardware
-  * Advisor: Prof. David C. Remy
-  
-### Research Project - Stuttgart, Germany
-  *University of Stuttgart, Project Competition Advanced Concepts of Control Theory*: Mar 2020 - Oct 2020
-  * Worked in team of two students
-  * Designed a non-linear state-feedback controller for single track vehicle model that steers along a racetrack
-  * Optimized trajectory with a race trajectory optimization toolbox
-  * Finished at 2nd place with distinction out of 37 groups
-  * Advisor: Prof. Frank Allg&ouml;wer
-  
-### Research Project - Stuttgart, Germany
-  *University of Stuttgart, Statistical Learning and Stochastic Control*: Oct 2019 - Mar 2020
-  * Led research team and developed strong leadership skills
-  * Identified use of vector valued Gaussian Processes from Bayesian perspective to approximate multi-dimensional functions
-  * Evaluated different methods to construct the covariance matrix for multi-dimensional Gaussian Processes
-  * Advisors: Prof. Sebastian Trimpe and Prof. Christian Ebenbauer
-  
-### Research Project - Stuttgart, Germany
-  *University of Stuttgart, Advanced Concepts of Control Theory*: LAB Mar 2020 - Oct 2020
-  * Guided team out of three students
-  * Modelled and simulated mechanical-electrical 3 DOF helicopter
-  * Developed LQG controller and applied it to real physical system
-  * Advisor: Prof. Frank Allg&ouml;wer  
-  
-### Undergraduate Research Assistant - Duisburg, Germany
-  *University of Duisburg-Essen, Chair of Mechanics and Robotics*: May 2017 - Dec 2018
-  * Substitute lecturer in 300+ student class (Mechanics 2)
-  * Creation of various graphs for research funding applications
-  * Supported planning for ECCOMAS Multibody Dynamics Conference 2019
-  * Advisor: Prof. Andr&eacute;s Kecskem&eacute;thy
-  
-### Research Project - Duisburg, Germany
-  *University of Duisburg-Essen, Capstone Project Mechatronics*: May 2017 - Dec 2018
-  * Developed basic heat control system for charcoal BBQ grill
-  * Implemented web interface to control and monitor grill temperatures wirelessly from cell phone
-  * Integrated automatic flipping mechanism for grilled food
-  * Advisor: Prof. Dieter Schramm
+## Professional Experience
+
+### **Software Engineer II** – Yamaha Motor Corporation, USA (June 2023 – Present)  
+- Lead control engineer for advanced marine control systems within Yamaha’s Marine Innovation Division.  
+- Developed engineering strategies for Yamaha's **ADAS (Advanced Driver Assistance Systems)**.  
+- Contributed to establishing marine ADAS standards with the **American Boat and Yacht Council (ABYC)**.  
+- Managed university collaborations for research projects to foster innovation.  
+
+### **Control Engineer** – Yamaha Motor Corporation, USA (Mar 2023 – June 2023)  
+- Developed control algorithms for marine auto-docking products, including **DockPoint™**, the first auto-docking system for recreational boats.  
+- Directed vendors to ensure product alignment with technical specifications.  
+- Led the launch of DockPoint™, advancing marine automation technology.  
+
+### **Software Developer and Partner** – ARiSE Startup (Jan 2021 – Aug 2021)  
+- Developed a blockchain-based banking system for refugees.  
+- Established a business incubator for refugees on Malta.  
+- Led social media campaigns in collaboration with the marketing team.
+
+---
+
+## Research Experience  
+
+### **Graduate Research Assistant** – Georgia Institute of Technology (Aug 2020 – Dec 2022)  
+- Developed machine learning algorithms for coating thickness prediction.  
+- Trained CNNs for deep learning-based inversion processes on high-performance clusters.  
+- Advisor: Prof. Laurence J. Jacobs  
+
+### **Research Project** – Georgia Institute of Technology (Aug 2020 – Dec 2020)  
+- Directed a research team on **SafeOpt-based automatic controller tuning** for quadcopter simulations.  
+- Proved that automatic tuning can be applied to controllers with high degrees of freedom.  
+- Advisor: Prof. Matthieu R. Bloch  
+
+### **Graduate Research Assistant** – University of Stuttgart (Dec 2019 – Sep 2020)  
+- Controlled quadrupedal robot RAMbi using real-time communication with **EtherCAT and Simulink Real-Time**.  
+- Expanded control algorithms and communication protocols.  
+- Advisor: Prof. David C. Remy  
+
+### **Project Competition – Advanced Control Theory** – University of Stuttgart (Mar 2020 – Oct 2020)  
+- Designed a non-linear state-feedback controller for a single-track vehicle model.  
+- Optimized trajectory with a race trajectory optimization toolbox.  
+- Finished **2nd place with distinction** out of 37 groups.  
+- Advisor: Prof. Frank Allgöwer  
+
+---
+
+## Teaching and Outreach  
+
+- **Guest Lecturer:** Music Recording & Mixing (Fall 2021, Fall 2022), Georgia Tech  
+  Topics: EDM and electronic music production  
+- **Exercise Lecturer:** Mechanics 2 (2018), University of Duisburg-Essen  
+  Taught 300+ students.  
+- **Physics Teacher for Refugees:** 2016 – 2019 (German Physical Society)  
+- **Ski Instructor:** German Ski Instructor Association, Level 1  
+
+---
+
+## Awards & Certifications  
+- **Erasmus Scholarship** (2022) – University of Stuttgart  
+- **Graduate Research Scholarship** (2020) – DAAD  
+- **Mathworks Certified Simulink Associate**  
+- **OSHA-10 Shipyard/Maritime Certified**  
+
+---
+
+## Technical Skills  
+
+**Programming:** Python, Matlab/Simulink, C++ 17  
+**Operating Systems:** Windows, Ubuntu, ROS2, QNX  
+**Machine Learning:** scikit-learn, PyTorch  
+**Control Systems:** TwinCAT, EtherCAT, Simulink Real-Time  
+**Prototyping Tools:** dSPACE MicroAutoBox II, CANalyzer  
+**Audio Production:** Cubase, Ableton, Serato DJ  
+**Design:** Adobe Illustrator, Photoshop, AfterEffects  
+
+---
+
+## Languages  
+
+- **German:** Native  
+- **English:** Fluent  
+- **Spanish & Italian:** Basic  
+
+---
+
+## Personal Interests  
+
+- **Sports:** MMA, Muay Thai, Skiing, Scuba Diving  
+- **Music:** Piano, Music Production (Spotify & SoundCloud)  
+
+---
+
+You can explore more about my projects and professional journey through the **full version of my CV [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2024.pdf)** or reach out via [LinkedIn](https://www.linkedin.com/in/sjmxschm).
