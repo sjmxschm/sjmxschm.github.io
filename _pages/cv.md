@@ -9,7 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Below is a summary of my education, research, and professional experience. You can also download the **full version of my CV [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2024.pdf).**
+Below is a summary of my education, research, and professional experience. 
+
+Also, feel free to request my CV via email at [m.schmitz096@outlook.com](mailto:m.schmitz096@outlook.com) or reach out via [LinkedIn](https://www.linkedin.com/in/sjmxschm).
+
+<!-- You can also download the **full version of my CV [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2024.pdf).**
+-->
 
 ## Education  
 - **M.Sc. in Engineering Cybernetics**, University of Stuttgart, Germany (2019 – 2023)  
@@ -117,4 +122,6 @@ Below is a summary of my education, research, and professional experience. You c
 
 ---
 
+<!--
 You can explore more about my projects and professional journey through the **full version of my CV [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2024.pdf)** or reach out via [LinkedIn](https://www.linkedin.com/in/sjmxschm).
+-->
