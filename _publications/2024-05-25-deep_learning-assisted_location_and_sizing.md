@@ -20,9 +20,7 @@ https://doi.org/10.1016/j.ultras.2024.107351."
 
 This article proposes a deep learning-assisted nondestructive evaluation (NDE) technique for locating and sizing a coating delamination using ultrasonic guided waves. The proposed technique consists of sending a propagating guided wave into a coated plate with a transducer and measuring the corresponding time-domain signals by receivers at several locations at downstream distances from the source transducer. The received time-domain signals are then provided to a trained machine-learning (ML) algorithm, which subsequently outputs the location and size of any delamination flaws between the transducer and receivers. Numerical simulations show that the proposed NDE technique yields accurate results with high throughput, once the ML algorithm is well trained. Although training the ML algorithm is time-consuming, this training only needs to be done once for a given sample configuration. The results of this article demonstrate that the proposed technique has great potential for characterizing delamination flaws in practical NDE and structural health monitoring (SHM) applications.
 
-<!--
-[Download preprint here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/Machine_Learning_Inv_Max_Schmitz_Paper_Preprint_online.pdf)
--->
+[Download preprint here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/DL_Assisted_Ultrasonic_Guided_Waves_Preprint_online.pdf)
 
 Recommended citation: 
 
