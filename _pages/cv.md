@@ -17,10 +17,36 @@ Feel free to request my full CV via email at [m.schmitz096@outlook.com](mailto:m
 -->
 
 ## Education  
-- <img src="{{ '/images/logos/unistuttgart_logo_englisch_cmyk-01.png' | relative_url }}" alt="Stuttgart Logo" width="24" style="vertical-align:middle;"> **M.Sc. in Engineering Cybernetics**, University of Stuttgart, Germany (2019 – 2023)  
-- **Erasmus Exchange Program**, University of Padua, Italy (Feb 2022 – Aug 2022)  
-- **M.S. in Engineering Science and Mechanics**, Georgia Institute of Technology, USA (2020 – 2022)  
-- **B.Sc. in Mechanical Engineering**, University of Duisburg-Essen, Germany (2015 – 2019)  
+
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="{{ '/images/logos/unistuttgart_logo_englisch_cmyk-01.png' | relative_url }}" alt="Stuttgart Logo" width="48" style="margin-right: 12px;">
+  <div>
+    <strong>M.Sc. in Engineering Cybernetics</strong>, University of Stuttgart, Germany (2019–2023)
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="{{ '/images/logos/University_of_Padua_seal.svg.png' | relative_url }}" alt="Padue Logo" width="48" style="margin-right: 12px;">
+  <div>
+    <strong>Erasmus Exchange Program</strong>, University of Padua, Italy (Feb 2022 – Aug 2022) 
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="{{ '/images/logos/GeorgiaTech_RGB.png' | relative_url }}" alt="Gatech Logo" width="48" style="margin-right: 12px;">
+  <div>
+    <strong>M.S. in Engineering Science and Mechanics</strong>, Georgia Institute of Technology, USA (2020 – 2022) 
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="{{ '/images/logos/Uni-duisburg-essen-logo-2022.jpg' | relative_url }}" alt="Uni Due Logo" width="48" style="margin-right: 12px;">
+  <div>
+    <strong>B.Sc. in Mechanical Engineering</strong>, University of Duisburg-Essen, Germany (2015 – 2019)  
+  </div>
+</div>
+
 ---
 
 ## Professional Experience
