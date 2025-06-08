@@ -52,21 +52,21 @@ Feel free to request my full CV via email at [m.schmitz096@outlook.com](mailto:m
 ## Professional Experience
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Uni Due Logo" width="90" style="margin-right: 12px;">
+  <img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha logo" width="90" style="margin-right: 12px;">
   <div>
     <strong>Software Engineer II</strong>, amaha Motor Corporation, USA (June 2023 – Present)  
   </div>
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Uni Due Logo" width="90" style="margin-right: 12px;">
+  <img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha Logo" width="90" style="margin-right: 12px;">
   <div>
     <strong>Control Engineer</strong>, Yamaha Motor Corporation, USA (Mar 2023 – June 2023)  
   </div>
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/AriseLogo.png ' | relative_url }}" alt="Uni Due Logo" width="90" style="margin-right: 12px;">
+  <img src="{{ '/images/logos/AriseLogo.png ' | relative_url }}" alt="andArise Logo" width="90" style="margin-right: 12px;">
   <div>
     <strong>Software Developer and Partner</strong>, ARiSE Startup (Jan 2021 – Aug 2021) 
   </div>
