@@ -54,7 +54,7 @@ Feel free to request my full CV via email at [m.schmitz096@outlook.com](mailto:m
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha logo" width="120" style="margin-right: 12px;">
   <div>
-    <strong>Software Engineer II</strong>, amaha Motor Corporation, USA (June 2023 – Present)  
+    <strong>Software Engineer II</strong>, Yamaha Motor Corporation, USA (June 2023 – July 2025)  
   </div>
 </div>
 
