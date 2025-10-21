@@ -12,7 +12,7 @@ redirect_from:
 <p>&#9888; <strong>Searching and applying for PhD positions in robotics and machine learning starting in fall 2023. If you know someone who knows someone, please <a href="mailto:m.schmitz096@outlook.com">send me a message</a>!</strong>&#9888; </p> 
 -->
 
-I am an **incoming PhD Student at EPFL** with a strong background in autonomous systems, machine learning, and applied mathematics. My career spans both industry and academia, with hands-on experience in research, robotics, and innovative product development.
+I am a first year **Robotics PhD Student at at the [Learning Algorithms and Systems Laboratory](https://www.epfl.ch/labs/lasa/) within EPFL**. I have a strong background in autonomous systems, machine learning, and applied mathematics. My career spans both industry and academia, with hands-on experience in research, robotics, and innovative product development.
 
 Before, I served as the **Lead Control Engineer at Yamaha Motor Corporation's Marine Innovation Division** in Kennesaw, GA. In this role, I designed **advanced marine control systems**, lead collaborations with research institutions, and developed **cutting-edge driver assistance systems (ADAS)** for recreational boats. My work not only advanced marine technology, but also contributed to industry-wide safety standard in collaboration with the **American Boat and Yacht Council (ABYC)**.
 
