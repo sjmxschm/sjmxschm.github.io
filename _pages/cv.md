@@ -18,11 +18,17 @@ Feel free to request my full CV via email at [m.schmitz096@outlook.com](mailto:m
 
 ## Education  
 
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="{{ '/images/logos/EPFL_Logo_Digital_RGB_PROD.png' | relative_url }}" alt="EPFL Logo" width="120" style="margin-right: 12px;">
+  <div>
+    <strong>PhD in Robotics, Control, and Intelligent Systems </strong>,  École Polytechnique Fédérale de Lausanne, Switzerland (2025 – (anticipated) 2029)
+  </div>
+</div>
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="{{ '/images/logos/unistuttgart_logo_englisch_cmyk-01.png' | relative_url }}" alt="Stuttgart Logo" width="120" style="margin-right: 12px;">
   <div>
-    <strong>M.Sc. in Engineering Cybernetics</strong>, University of Stuttgart, Germany (2019–2023)
+    <strong>M.Sc. in Engineering Cybernetics</strong>, University of Stuttgart, Germany (2019 – 2023)
   </div>
 </div>
 
