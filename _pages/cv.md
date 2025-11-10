@@ -11,7 +11,7 @@ redirect_from:
 
 Below is a summary of my educational and professional experience. 
 
-Feel free to request my full CV via email at [m.schmitz096@outlook.com](mailto:m.schmitz096@outlook.com) or reach out via [LinkedIn](https://www.linkedin.com/in/sjmxschm).
+Feel free to request my full CV via email at [cv@max-schmitz-foriest.com](mailto:cv@max-schmitz-foriest.com) or reach out via [LinkedIn](https://www.linkedin.com/in/sjmxschm).
 
 <!-- You can also download the **full version of my CV [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2024.pdf).**
 -->
