@@ -1,14 +1,25 @@
 ---
 title: "Gaussian Processes for Automatic Controller Gains Tuning in Robotics and Control (unpublished)"
 collection: publications
+type: "Report"
 permalink: /publication/2021-15-12-automatic_controller_gains_tuning
 date: 2020-12-15
 location: "Atlanta, GA"
 venue: "(unpublished)"
-excerpt: "This paper was the final documentation in the class ECE6254 Statistical Machine Learning and describes the use of Gaussian processes for automatic and safe controller gains tuning."
+excerpt: 'Safe automatic controller tuning via Gaussian processes and Bayesian optimization with provable safety guarantees.'
+abstract: 'Manually tuning controller parameters is fundamental but tedious and potentially unsafe when done on a real system. This paper applies SafeOpt — a Bayesian optimization algorithm — to automatically tune control law parameters while guaranteeing that performance never falls below a safety threshold. A Gaussian process models the performance function, and only parameter configurations with high-probability safe performance are evaluated, starting from a low-performance but safe initial controller.'
 paperurl: "https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/ece_6254_gps_project_report.pdf"
+open_access: true
 citation: "Schmitz, Maximilian, Gray, Justin, Oh, Jaeyo, Lu, Yuwei, Kanwar, Bharat (2022). &quot;Gaussian Processes for Automatic Con-
 troller Gains Tuning in Robotics and Control.&quot; <i>(unpublished)</i>."
+bibtex: |
+  @techreport{Schmitz2020_gp,
+    title = {Gaussian Processes for Automatic Controller Gains Tuning in Robotics and Control},
+    author = {Schmitz, Maximilian and Gray, Justin and Oh, Jaeyo and Lu, Yuwei and Kanwar, Bharat},
+    year = {2020},
+    institution = {Georgia Institute of Technology},
+    note = {unpublished, ECE6254 Statistical Machine Learning final project}
+  }
 ---
 
 Tuning controller parameters is one of the most fundamental problems when designing

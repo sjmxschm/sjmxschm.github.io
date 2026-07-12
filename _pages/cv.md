@@ -9,77 +9,101 @@ redirect_from:
 
 {% include base_path %}
 
-Below is a summary of my educational and professional experience. 
+<div class="cv-contact"><p>Below is a summary of my educational and professional background. Request the full CV via <a href="mailto:cv@max-schmitz-foriest.com">cv@max-schmitz-foriest.com</a> or connect on <a href="https://www.linkedin.com/in/sjmxschm" target="_blank" rel="noopener">LinkedIn</a>.</p></div>
 
-Feel free to request my full CV via email at [cv@max-schmitz-foriest.com](mailto:cv@max-schmitz-foriest.com) or reach out via [LinkedIn](https://www.linkedin.com/in/sjmxschm).
+<div class="cv-section">
+<div class="cv-section__title">Education</div>
 
-<!-- You can also download the **full version of my CV [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2024.pdf).**
--->
-
-## Education  
-
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/EPFL_Logo_Digital_RGB_PROD.png' | relative_url }}" alt="EPFL Logo" width="120" style="margin-right: 12px;">
-  <div>
-    <strong>PhD in Robotics, Control, and Intelligent Systems </strong>,  École Polytechnique Fédérale de Lausanne, Switzerland (2025 – (anticipated) 2029)
+<div class="cv-entry">
+  <div class="cv-entry__logo cv-entry__logo--stack">
+    <span class="logo-wrap"><img src="{{ '/images/logos/EPFL_Logo_Digital_RGB_PROD.png' | relative_url }}" alt="EPFL"></span>
+    <span class="logo-wrap logo-wrap--ellis"><img src="{{ '/images/logos/ELLIS_logo.png' | relative_url }}" alt="ELLIS" onerror="this.closest('.logo-wrap').style.display='none'"></span>
   </div>
+  <div class="cv-entry__body">
+    <p class="cv-entry__title">PhD in Robotics, Control &amp; Intelligent Systems</p>
+    <p class="cv-entry__subtitle">École Polytechnique Fédérale de Lausanne (EPFL) · ELLIS PhD Program</p>
+  </div>
+  <div class="cv-entry__period">2025 – 2029</div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/unistuttgart_logo_englisch_cmyk-01.png' | relative_url }}" alt="Stuttgart Logo" width="120" style="margin-right: 12px;">
-  <div>
-    <strong>M.Sc. in Engineering Cybernetics</strong>, University of Stuttgart, Germany (2019 – 2023)
+<div class="cv-entry">
+  <div class="cv-entry__logo">
+    <span class="logo-wrap"><img src="{{ '/images/logos/unistuttgart_logo_englisch_cmyk-01.png' | relative_url }}" alt="University of Stuttgart"></span>
   </div>
+  <div class="cv-entry__body">
+    <p class="cv-entry__title">M.Sc. in Engineering Cybernetics</p>
+    <p class="cv-entry__subtitle">University of Stuttgart, Germany</p>
+  </div>
+  <div class="cv-entry__period">2019 – 2023</div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/UniPadovaLogo.png' | relative_url }}" alt="Padue Logo" width="120" style="margin-right: 12px;">
-  <div>
-    <strong>Erasmus Exchange Program</strong>, University of Padua, Italy (Feb 2022 – Aug 2022) 
+<div class="cv-entry">
+  <div class="cv-entry__logo">
+    <span class="logo-wrap"><img src="{{ '/images/logos/UniPadovaLogo.png' | relative_url }}" alt="University of Padua"></span>
   </div>
+  <div class="cv-entry__body">
+    <p class="cv-entry__title">Erasmus Exchange Program</p>
+    <p class="cv-entry__subtitle">University of Padua, Italy</p>
+  </div>
+  <div class="cv-entry__period">Feb – Aug 2022</div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/GeorgiaTech_RGB.png' | relative_url }}" alt="Gatech Logo" width="120" style="margin-right: 12px;">
-  <div>
-    <strong>M.S. in Engineering Science and Mechanics</strong>, Georgia Institute of Technology, USA (2020 – 2022) 
+<div class="cv-entry">
+  <div class="cv-entry__logo">
+    <span class="logo-wrap"><img src="{{ '/images/logos/GeorgiaTech_RGB.png' | relative_url }}" alt="Georgia Tech"></span>
   </div>
+  <div class="cv-entry__body">
+    <p class="cv-entry__title">M.S. in Engineering Science and Mechanics</p>
+    <p class="cv-entry__subtitle">Georgia Institute of Technology, USA</p>
+  </div>
+  <div class="cv-entry__period">2020 – 2022</div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/Uni-duisburg-essen-logo-2022.jpg' | relative_url }}" alt="Uni Due Logo" width="120" style="margin-right: 12px;">
-  <div>
-    <strong>B.Sc. in Mechanical Engineering</strong>, University of Duisburg-Essen, Germany (2015 – 2019)  
+<div class="cv-entry">
+  <div class="cv-entry__logo">
+    <span class="logo-wrap"><img src="{{ '/images/logos/Uni-duisburg-essen-logo-2022.jpg' | relative_url }}" alt="University of Duisburg-Essen"></span>
   </div>
+  <div class="cv-entry__body">
+    <p class="cv-entry__title">B.Sc. in Mechanical Engineering</p>
+    <p class="cv-entry__subtitle">University of Duisburg-Essen, Germany</p>
+  </div>
+  <div class="cv-entry__period">2015 – 2019</div>
+</div>
 </div>
 
----
+<div class="cv-section">
+<div class="cv-section__title">Professional Experience</div>
 
-## Professional Experience
-
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha logo" width="120" style="margin-right: 12px;">
-  <div>
-    <strong>Software Engineer II</strong>, Yamaha Motor Corporation, USA (June 2023 – July 2025)  
+<div class="cv-entry">
+  <div class="cv-entry__logo">
+    <span class="logo-wrap"><img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha Motor"></span>
   </div>
+  <div class="cv-entry__body">
+    <p class="cv-entry__title">Software Engineer II — Lead Control Engineer</p>
+    <p class="cv-entry__subtitle">Yamaha Motor Corporation, Marine Innovation Center, USA</p>
+  </div>
+  <div class="cv-entry__period">Jun 2023 – Jul 2025</div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha Logo" width="120" style="margin-right: 12px;">
-  <div>
-    <strong>Control Engineer</strong>, Yamaha Motor Corporation, USA (Mar 2023 – June 2023)  
+<div class="cv-entry">
+  <div class="cv-entry__logo">
+    <span class="logo-wrap"><img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha Motor"></span>
   </div>
+  <div class="cv-entry__body">
+    <p class="cv-entry__title">Control Engineer</p>
+    <p class="cv-entry__subtitle">Yamaha Motor Corporation, USA — DockPoint auto-docking system</p>
+  </div>
+  <div class="cv-entry__period">Mar – Jun 2023</div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="{{ '/images/logos/AriseLogo_cut.png ' | relative_url }}" alt="andArise Logo" width="120" style="margin-right: 12px;">
-  <div>
-    <strong>Software Developer and Partner</strong>, ARiSE Startup (Jan 2021 – Aug 2021) 
+<div class="cv-entry">
+  <div class="cv-entry__logo">
+    <span class="logo-wrap"><img src="{{ '/images/logos/AriseLogo_cut.png' | relative_url }}" alt="ARiSE"></span>
   </div>
+  <div class="cv-entry__body">
+    <p class="cv-entry__title">Software Developer &amp; Co-founder</p>
+    <p class="cv-entry__subtitle">ARiSE Startup</p>
+  </div>
+  <div class="cv-entry__period">Jan – Aug 2021</div>
 </div>
-
----
-
-<!--
-You can explore more about my projects and professional journey through the **full version of my CV [here](https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/CV_Max_Schmitz_PhD_2024.pdf)** or reach out via [LinkedIn](https://www.linkedin.com/in/sjmxschm).
--->
+</div>

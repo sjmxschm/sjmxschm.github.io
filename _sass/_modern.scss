@@ -1,0 +1,957 @@
+/* ==========================================================================
+   MODERN DARK THEME OVERRIDES + COMPONENT STYLES
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Global dark background enforcement
+   -------------------------------------------------------------------------- */
+
+html, body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+/* --------------------------------------------------------------------------
+   Masthead — darker than body
+   -------------------------------------------------------------------------- */
+
+.masthead {
+  background-color: #131624;
+  border-bottom-color: $border-color;
+
+  a {
+    color: $masthead-link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+}
+
+.greedy-nav {
+  background: #131624;
+
+  a {
+    color: $masthead-link-color;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+
+  button {
+    background-color: $primary-color;
+    color: #fff;
+  }
+
+  .hidden-links {
+    background: #131624;
+    border-color: $border-color;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+    a:hover {
+      background: $lighter-gray;
+      color: $masthead-link-color-hover;
+    }
+
+    li {
+      border-bottom-color: $border-color;
+    }
+
+    &::before {
+      border-color: $border-color transparent;
+    }
+
+    &::after {
+      border-color: #131624 transparent;
+    }
+  }
+
+  .visible-links a::before {
+    background: $primary-color;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Footer — darkest layer
+   -------------------------------------------------------------------------- */
+
+.page__footer {
+  background-color: #0f1220;
+  border-top-color: $border-color;
+  color: $gray;
+
+  a {
+    color: $gray;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: none;
+    }
+  }
+
+  .fas, .fab, .far, .fal {
+    color: $gray;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar / Author profile
+   -------------------------------------------------------------------------- */
+
+.sidebar {
+  background-color: transparent;
+
+  .author__avatar img {
+    border-color: $border-color;
+    background: $lighter-gray;
+  }
+
+  .author__name {
+    color: #e2e8f0;
+  }
+
+  .author__bio {
+    color: $gray;
+  }
+}
+
+/* Mobile popup only: apply dark card background */
+@media (max-width: 924px) {
+  .author__urls {
+    background: $lighter-gray;
+    border-color: $border-color;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+    &::before {
+      border-color: $border-color transparent;
+    }
+
+    &::after {
+      border-color: $lighter-gray transparent;
+    }
+  }
+}
+
+/* Desktop: sidebar list — always transparent, no box */
+.author__urls {
+  /* Links: clean hover state */
+  a {
+    color: $text-color;
+    padding: 3px 6px;
+    border-radius: 4px;
+    transition: color 0.15s ease, background 0.15s ease;
+
+    &:hover {
+      color: $link-color;
+      background: rgba($primary-color, 0.1);
+      text-decoration: none;
+    }
+  }
+
+  li {
+    margin-bottom: 1px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Page content
+   -------------------------------------------------------------------------- */
+
+.page__content {
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+
+  /* Pub action buttons — override link color rules */
+  a.pub-btn--primary,
+  a.pub-btn--download {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  a.pub-btn--ghost {
+    text-decoration: none;
+    color: $gray;
+
+    &:hover {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+
+  h2 {
+    border-bottom-color: $border-color;
+    color: #e2e8f0;
+  }
+
+  code {
+    background: $code-background-color;
+    border-color: $border-color;
+    color: #c9d1d9;
+  }
+
+  pre {
+    background: $code-background-color;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    padding: 1em 1.25em;
+  }
+}
+
+.page__title {
+  color: #e2e8f0;
+}
+
+/* hr */
+hr {
+  border-top-color: $border-color;
+}
+
+/* Pub buttons — global override so they work in .archive and .page__content */
+a.pub-btn--primary {
+  color: #fff !important;
+  &:hover { color: #fff !important; text-decoration: none; }
+}
+
+a.pub-btn--download {
+  color: #fff !important;
+  &:hover { color: #fff !important; text-decoration: none; }
+}
+
+/* --------------------------------------------------------------------------
+   Archive list (general)
+   -------------------------------------------------------------------------- */
+
+.archive {
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+}
+
+.archive__item-title a {
+  color: #e2e8f0;
+
+  &:hover {
+    color: $link-color-hover;
+  }
+}
+
+.archive__subtitle {
+  color: $gray;
+  border-bottom-color: $border-color;
+}
+
+/* --------------------------------------------------------------------------
+   Navigation items
+   -------------------------------------------------------------------------- */
+
+.nav__list .active {
+  background: $primary-color;
+  color: #fff;
+}
+
+.toc {
+  background-color: $lighter-gray;
+  border-color: $border-color;
+
+  .nav__title {
+    background: $primary-color;
+    color: #fff;
+  }
+}
+
+.toc__menu a {
+  color: $gray;
+  border-bottom-color: $border-color;
+
+  &:hover {
+    color: $text-color;
+    background: darken(#252842, 3%);
+  }
+}
+
+/* Page taxonomy pills */
+.page__taxonomy-item {
+  border-color: $border-color;
+  color: $gray;
+
+  &:hover {
+    color: $link-color-hover;
+    border-color: $primary-color;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Notices
+   -------------------------------------------------------------------------- */
+
+.notice {
+  background-color: $lighter-gray;
+  border-left-color: $primary-color;
+  color: $text-color;
+}
+
+/* --------------------------------------------------------------------------
+   PUBLICATIONS PAGE — filter toolbar
+   -------------------------------------------------------------------------- */
+
+.pub-scholar-link {
+  margin-bottom: 1.5rem;
+  color: $gray;
+  font-size: 0.9rem;
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+}
+
+.pub-filter-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pub-filter-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $gray;
+  margin-right: 0.4rem;
+}
+
+.pub-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-family: $global-font-family;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: $gray;
+  background: transparent;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  &:hover {
+    color: $text-color;
+    border-color: $light-gray;
+  }
+
+  &.active {
+    color: #fff;
+    background: $primary-color;
+    border-color: $primary-color;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   PUBLICATIONS PAGE — pub cards
+   -------------------------------------------------------------------------- */
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.pub-card {
+  padding: 1.5rem 1.75rem;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    border-color: $light-gray;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
+  }
+}
+
+.pub-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.pub-card__badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-radius: 999px;
+  background: rgba($primary-color, 0.15);
+  color: $primary-color;
+  border: 1px solid rgba($primary-color, 0.3);
+
+  &--journal-article {
+    background: rgba(#4ade80, 0.12);
+    color: #4ade80;
+    border-color: rgba(#4ade80, 0.25);
+  }
+
+  &--conference-paper {
+    background: rgba(#60a5fa, 0.12);
+    color: #60a5fa;
+    border-color: rgba(#60a5fa, 0.25);
+  }
+
+  &--master-thesis {
+    background: rgba(#f472b6, 0.12);
+    color: #f472b6;
+    border-color: rgba(#f472b6, 0.25);
+  }
+
+  &--report {
+    background: rgba($gray, 0.15);
+    color: $gray;
+    border-color: rgba($gray, 0.3);
+  }
+}
+
+.pub-card__year {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: $gray;
+  margin-left: auto;
+}
+
+.pub-card__title {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  border-bottom: none !important;
+
+  a {
+    color: #e2e8f0;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+}
+
+.pub-card__meta {
+  margin: 0 0 0.6rem;
+  font-size: 0.85rem;
+  color: $gray;
+}
+
+.pub-card__venue {
+  font-style: italic;
+}
+
+.pub-card__excerpt {
+  margin: 0 0 0.8rem;
+  font-size: 0.88rem;
+  color: mix(#fff, $gray, 30%);
+  line-height: 1.6;
+}
+
+.pub-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.3rem 0.85rem;
+  font-family: $global-font-family;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  border: 1px solid transparent;
+
+  &--ghost {
+    color: $gray;
+    background: transparent;
+    border-color: $border-color;
+
+    &:hover {
+      color: $text-color;
+      border-color: $light-gray;
+      background: rgba(255, 255, 255, 0.04);
+    }
+  }
+
+  &--primary {
+    color: #fff;
+    background: $primary-color;
+    border-color: $primary-color;
+
+    &:hover {
+      background: $link-color-hover;
+      border-color: $link-color-hover;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  &--download {
+    color: #fff;
+    background: #2a6049;
+    border-color: #2a6049;
+
+    &:hover {
+      background: #35795c;
+      border-color: #35795c;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  &--success {
+    color: #fff !important;
+    background: #4ade80 !important;
+    border-color: #4ade80 !important;
+  }
+}
+
+.pub-btn__chevron {
+  font-size: 0.7em;
+  transition: transform 0.15s ease;
+}
+
+.pub-card__abstract {
+  display: none;
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-left: 3px solid $primary-color;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: $text-color;
+
+  &--open {
+    display: block;
+    animation: fadeSlideIn 0.2s ease;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.pub-card__citation {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: $gray;
+}
+
+.pub-empty {
+  padding: 2rem;
+  text-align: center;
+  color: $gray;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   TEACHING PAGE — teaching cards
+   -------------------------------------------------------------------------- */
+
+.teaching-intro {
+  margin-bottom: 2rem;
+  color: $gray;
+  font-size: 0.95rem;
+}
+
+.teaching-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.teaching-card {
+  padding: 1.5rem 1.75rem;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    border-color: $light-gray;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
+  }
+}
+
+.teaching-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.teaching-card__badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-radius: 999px;
+  background: rgba(#fbbf24, 0.12);
+  color: #fbbf24;
+  border: 1px solid rgba(#fbbf24, 0.25);
+}
+
+.teaching-card__year {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: $gray;
+  margin-left: auto;
+}
+
+.teaching-card__title {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  border-bottom: none !important;
+
+  a {
+    color: #e2e8f0;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+}
+
+.teaching-card__meta {
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: $gray;
+}
+
+.teaching-card__venue {
+  font-style: italic;
+}
+
+.teaching-card__location {
+  color: mix(#fff, $gray, 20%);
+}
+
+.teaching-card__excerpt {
+  margin: 0 0 1rem;
+  font-size: 0.88rem;
+  color: mix(#fff, $gray, 30%);
+  line-height: 1.6;
+}
+
+.teaching-card__link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: underline;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Forms & Inputs
+   -------------------------------------------------------------------------- */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="number"],
+textarea {
+  background-color: $lighter-gray;
+  color: $text-color;
+  border-color: $border-color;
+
+  &:focus {
+    border-color: $primary-color;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba($primary-color, 0.2);
+  }
+}
+
+select {
+  background-color: $lighter-gray;
+  color: $text-color;
+  border-color: $border-color;
+}
+
+/* --------------------------------------------------------------------------
+   Code blocks (syntax highlighting dark override)
+   -------------------------------------------------------------------------- */
+
+.highlight {
+  background: $code-background-color;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+}
+
+/* --------------------------------------------------------------------------
+   Buttons (general .btn class)
+   -------------------------------------------------------------------------- */
+
+.btn {
+  &--inverse {
+    background-color: $lighter-gray;
+    color: $text-color;
+    border-color: $border-color;
+
+    &:hover {
+      background-color: $light-gray;
+      border-color: $light-gray;
+      color: $text-color;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Institution logo wrapper (about + cv pages)
+   -------------------------------------------------------------------------- */
+
+.logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  background: #fff;
+  border-radius: 6px;
+  flex-shrink: 0;
+
+  img {
+    display: block;
+    max-width: 110px;
+    height: auto;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   CV / Timeline sections
+   -------------------------------------------------------------------------- */
+
+.cv-section {
+  margin-bottom: 2.5rem;
+}
+
+.cv-section__title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $primary-color;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $border-color;
+}
+
+.cv-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: $light-gray;
+  }
+}
+
+.cv-entry__logo {
+  flex-shrink: 0;
+}
+
+.cv-entry__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.cv-entry__title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin: 0 0 0.15rem;
+}
+
+.cv-entry__subtitle {
+  font-size: 0.85rem;
+  color: $gray;
+  margin: 0;
+}
+
+.cv-entry__period {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: $primary-color;
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: center;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+/* Contact / CTA block at top of CV */
+.cv-contact {
+  display: block;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: $gray;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+}
+
+.cv-entry__logo--stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+/* ELLIS logo has huge empty canvas — clip to show only the letter area */
+.logo-wrap--ellis {
+  width: 140px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  padding: 2px 4px;
+
+  img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: auto;
+    max-width: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   About page — inline logo rows
+   -------------------------------------------------------------------------- */
+
+.about-edu-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-edu-row__text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Mobile responsiveness
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .pub-filters {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .pub-card,
+  .teaching-card {
+    padding: 1.25rem;
+  }
+
+  .pub-card__actions {
+    flex-direction: column;
+  }
+
+  .pub-btn {
+    justify-content: center;
+    width: 100%;
+  }
+}

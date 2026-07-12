@@ -13,24 +13,24 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$serif                      : "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+$sans-serif                 : "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+$monospace                  : "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+$georgia                    : "Inter", -apple-system, sans-serif;
+$times                      : "Inter", -apple-system, sans-serif;
+$bodoni                     : "Inter", sans-serif;
+$calisto                    : "Inter", sans-serif;
+$garamond                   : "Inter", sans-serif;
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$caption-font-family        : $sans-serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -47,24 +47,24 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$gray                       : #8b99a7;
+$dark-gray                  : #1a1d2e;
+$darker-gray                : #131624;
+$light-gray                 : #3d4166;
+$lighter-gray               : #252842;
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$body-color                 : #1a1d2e;
+$background-color           : #1a1d2e;
+$code-background-color      : #1e2235;
+$code-background-color-dark : #252842;
+$text-color                 : #c9d1d9;
+$border-color               : #2d3250;
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$primary-color              : #818cf8;
+$success-color              : #4ade80;
+$warning-color              : #fbbf24;
+$danger-color               : #f87171;
+$info-color                 : #818cf8;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -72,11 +72,11 @@ $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
 $flickr-color               : #ff0084;
 $foursquare-color           : #0072b1;
-$github-color               : #171516;
+$github-color               : #c9d1d9;
 $google-plus-color          : #dd4b39;
-$instagram-color            : #517fa4;
+$instagram-color            : #c9d1d9;
 $lastfm-color               : #d51007;
-$linkedin-color             : #007bb6;
+$linkedin-color             : #0a66c2;
 $pinterest-color            : #cb2027;
 $rss-color                  : #fa9b39;
 $soundcloud-color           : #ff3300;
@@ -90,11 +90,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : #818cf8;
+$link-color-hover           : #a5b4fc;
+$link-color-visited         : #818cf8;
+$masthead-link-color        : #c9d1d9;
+$masthead-link-color-hover  : #818cf8;
 
 
 /*

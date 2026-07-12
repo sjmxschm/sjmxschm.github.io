@@ -7,6 +7,38 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="teaching-intro">
+  <p>Courses taught and guest lectures delivered across engineering, mechanics, and music technology.</p>
+</div>
+
+<div class="teaching-list">
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <div class="teaching-card">
+    <div class="teaching-card__header">
+      {% if post.type %}
+        <span class="teaching-card__badge">{{ post.type }}</span>
+      {% endif %}
+      <span class="teaching-card__year">{{ post.date | date: "%Y" }}</span>
+    </div>
+
+    <h2 class="teaching-card__title">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+    </h2>
+
+    <div class="teaching-card__meta">
+      {% if post.venue %}
+        <span class="teaching-card__venue">{{ post.venue }}</span>
+      {% endif %}
+      {% if post.location %}
+        <span class="teaching-card__location">· {{ post.location }}</span>
+      {% endif %}
+    </div>
+
+    {% if post.excerpt %}
+      <p class="teaching-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    {% endif %}
+
+    <a href="{{ base_path }}{{ post.url }}" class="teaching-card__link">Read more →</a>
+  </div>
 {% endfor %}
+</div>
