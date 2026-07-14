@@ -9,7 +9,7 @@ location: "Atlanta, GA"
 authors: "Junzhen Wang, Maximilian Schmitz, Laurence J. Jacobs, Jianmin Qu"
 excerpt: 'Deep learning NDE for locating and sizing coating delaminations from ultrasonic guided wave time-space images.'
 abstract: 'Proposes a deep learning-assisted NDE technique for locating and sizing coating delaminations using ultrasonic guided waves. A transducer sends guided waves into a coated plate; time-domain signals from multiple downstream receivers form a time-space image that feeds into a trained ML model which directly outputs delamination location and size. Numerical simulations show high throughput and accuracy after a one-time training phase, making the approach practical for real-world NDE and SHM scenarios.'
-paperurl: "https://www.sciencedirect.com/science/article/abs/pii/S0165212523000239"
+paperurl: "https://doi.org/10.1016/j.ultras.2024.107351"
 open_access: false
 preprint_url: "https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/DL_Assisted_Ultrasonic_Guided_Waves_Preprint_online.pdf"
 citation: "Junzhen Wang, Maximilian Schmitz, Laurence J. Jacobs, Jianmin Qu,

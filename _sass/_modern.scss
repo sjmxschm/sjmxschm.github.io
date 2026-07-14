@@ -574,7 +574,7 @@ a.pub-btn--download {
   line-height: 1.7;
   color: $text-color;
 
-  &--open {
+  &.pub-card__abstract--open {
     display: block;
     animation: fadeSlideIn 0.2s ease;
   }
