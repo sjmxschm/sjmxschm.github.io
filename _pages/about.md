@@ -44,6 +44,17 @@ In my free time, I enjoy producing electronic music, playing the piano, and DJin
 
 Whether developing innovative marine technology, producing music, or pursuing research, I thrive at the intersection of creativity, engineering, and leadership.
 
+<h2 class="news-section-title">News</h2>
+
+<div class="news-list">
+{% for item in site.data.news limit:5 %}
+<div class="news-item">
+  <span class="news-date">{{ item.date }}</span>
+  <span class="news-content">{{ item.content }}</span>
+</div>
+{% endfor %}
+</div>
+
 <!--
 I am a German-American graduate student studying engineering cybernetics at the [University of Stuttgart](https://www.uni-stuttgart.de/en/)
 and just graduated with a master's in engineering science and mechanics from the [Georgia Institute of Technology](https://www.gatech.edu/) in the spring of 2022.

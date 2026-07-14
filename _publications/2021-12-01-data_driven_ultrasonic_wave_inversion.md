@@ -4,7 +4,8 @@ collection: publications
 type: "Journal Article"
 permalink: /publication/2021-12-01-data_driven_ultrasonic_wave_inversion
 venue: "Wave Motion"
-date: 2022-04-04
+date: 2023-04-04
+authors: "Maximilian Schmitz, Jin-Yeon Kim, Laurence J. Jacobs"
 location: "Atlanta, GA"
 excerpt: 'Machine and deep learning for nondestructive coating thickness classification from Lamb wave dispersion maps.'
 abstract: 'Applies machine and deep learning to nondestructively characterize coating thickness and uniformity in layered systems. Finite element simulations generate Lamb wave time-domain signals that are 2D-Fourier-transformed into dispersion maps. For uniform coatings, extracted dispersion features feed ML classifiers for thickness categorization. For non-uniform coatings, a convolutional neural network (CNN) trained on simulated dispersion maps achieves robust classification, with recommendations given on network architecture and evaluation.'

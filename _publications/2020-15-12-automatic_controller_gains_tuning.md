@@ -5,10 +5,11 @@ type: "Report"
 permalink: /publication/2021-15-12-automatic_controller_gains_tuning
 date: 2020-12-15
 location: "Atlanta, GA"
+authors: "Maximilian Schmitz, Justin Gray, Jaeyo Oh, Yuwei Lu, Bharat Kanwar"
 venue: "(unpublished)"
 excerpt: 'Safe automatic controller tuning via Gaussian processes and Bayesian optimization with provable safety guarantees.'
 abstract: 'Manually tuning controller parameters is fundamental but tedious and potentially unsafe when done on a real system. This paper applies SafeOpt — a Bayesian optimization algorithm — to automatically tune control law parameters while guaranteeing that performance never falls below a safety threshold. A Gaussian process models the performance function, and only parameter configurations with high-probability safe performance are evaluated, starting from a low-performance but safe initial controller.'
-paperurl: "https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/ece_6254_gps_project_report.pdf"
+preprint_url: "https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/ece_6254_gps_project_report.pdf"
 open_access: true
 citation: "Schmitz, Maximilian, Gray, Justin, Oh, Jaeyo, Lu, Yuwei, Kanwar, Bharat (2022). &quot;Gaussian Processes for Automatic Con-
 troller Gains Tuning in Robotics and Control.&quot; <i>(unpublished)</i>."

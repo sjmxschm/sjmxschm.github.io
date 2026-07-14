@@ -1,0 +1,8 @@
+# News items — newest first
+# Each item: date (string, e.g. "Jun 2026") and content (HTML allowed)
+
+- date: "Jun 2026"
+  content: "Paper published in <strong>IEEE Robotics & Automation Magazine</strong> — <a href=\"https://ieeexplore.ieee.org/abstract/document/11563978\"><em>Surviving the Paper Deluge: A One-Year Study in Learning From Demonstration</em></a>."
+
+- date: "Aug 2025"
+  content: "Started as an <strong>ELLIS PhD Student</strong> in Robotics at <a href=\"https://www.epfl.ch/labs/lasa/\">EPFL LASA</a>, working on transfer learning for robotics."

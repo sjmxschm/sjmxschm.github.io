@@ -6,6 +6,7 @@ permalink: /publication/2024-05-09-deep_learning-based_prediction_of_interfacial
 venue: "SPIE Smart Structures + Nondestructive Evaluation"
 date: 2024-05-09
 location: "Atlanta, GA"
+authors: "Junzhen Wang, Maximilian Schmitz, Laurence J. Jacobs, Jianmin Qu"
 excerpt: 'LSTM and CNN framework for predicting interfacial bond quality and delamination in coated plates from guided wave data.'
 abstract: 'Proposes a deep learning framework to predict interfacial conditions in coated plates using guided wave measurements. Spring compliance parameters model bond quality; an LSTM network predicts tangential and normal compliance from dispersion curves derived via FEM simulation. For full delamination cases, a CNN processes time-space images from downstream receivers to predict delamination location and size. Both methods demonstrate strong potential for practical NDE and structural health monitoring applications.'
 paperurl: "https://doi.org/10.1117/12.3010200"

@@ -7,7 +7,8 @@ excerpt: 'Nonlinear state-feedback controller design and race trajectory optimiz
 abstract: 'Final project for the Engineering Cybernetics graduate competition in advanced control theory. The paper covers the design of nonlinear state-feedback control algorithms and the numerical optimization of a race trajectory for a single-track vehicle model, balancing control performance with computational feasibility.'
 date: 2020-06-18
 venue: '(unpublished)'
-paperurl: 'https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/KRT_reportGroup20.pdf'
+authors: "Maximilian Schmitz, Josias Ruehle"
+preprint_url: 'https://github.com/sjmxschm/sjmxschm.github.io/raw/master/files/KRT_reportGroup20.pdf'
 open_access: true
 citation: 'Schmitz, Maximilian, Ruehle, Josias. (2020). &quot;Project Report: Optimize a Single Track Vehicle Model with Non-linear State-Feedback Controller .&quot; <i>(unpublished)</i>.'
 bibtex: |

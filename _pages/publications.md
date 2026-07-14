@@ -16,7 +16,8 @@ author_profile: true
     <span class="pub-filter-label">Year</span>
     <button class="pub-filter-btn active" data-filter="year" data-value="all">All</button>
     {% assign seen_years = "" | split: "" %}
-    {% for post in site.publications reversed %}
+    {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+    {% for post in sorted_publications %}
       {% assign yr = post.date | date: "%Y" %}
       {% unless seen_years contains yr %}
         {% assign seen_years = seen_years | push: yr %}
@@ -28,7 +29,7 @@ author_profile: true
     <span class="pub-filter-label">Type</span>
     <button class="pub-filter-btn active" data-filter="type" data-value="all">All</button>
     {% assign seen_types = "" | split: "" %}
-    {% for post in site.publications reversed %}
+    {% for post in sorted_publications %}
       {% if post.type %}
         {% unless seen_types contains post.type %}
           {% assign seen_types = seen_types | push: post.type %}
@@ -40,7 +41,8 @@ author_profile: true
 </div>
 
 <div class="pub-list" id="pub-list">
-{% for post in site.publications reversed %}
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+{% for post in sorted_publications %}
   {% assign yr = post.date | date: "%Y" %}
   {% assign ptype = post.type | default: "Other" %}
   <div class="pub-card" data-year="{{ yr }}" data-type="{{ ptype }}">
@@ -53,8 +55,16 @@ author_profile: true
     </div>
 
     <h2 class="pub-card__title">
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
     </h2>
+
+    {% if post.authors %}
+      <p class="pub-card__authors">{{ post.authors }}</p>
+    {% endif %}
 
     {% if post.venue %}
       <p class="pub-card__meta"><span class="pub-card__venue">{{ post.venue }}</span></p>
@@ -94,10 +104,6 @@ author_profile: true
             ↓ Download Preprint
           </a>
         {% endif %}
-      {% elsif post.open_access and post.paperurl %}
-        <a href="{{ post.paperurl }}" class="pub-btn pub-btn--download" target="_blank" rel="noopener noreferrer">
-          ↓ Download Paper
-        </a>
       {% endif %}
 
     </div>

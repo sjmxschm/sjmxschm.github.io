@@ -79,21 +79,10 @@ redirect_from:
     <span class="logo-wrap"><img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha Motor"></span>
   </div>
   <div class="cv-entry__body">
-    <p class="cv-entry__title">Software Engineer II — Lead Control Engineer</p>
-    <p class="cv-entry__subtitle">Yamaha Motor Corporation, Marine Innovation Center, USA</p>
+    <p class="cv-entry__title">Lead Control Engineer (Software Engineer II)</p>
+    <p class="cv-entry__subtitle">Yamaha Motor Corporation, Marine Innovation Center · Kennesaw, GA</p>
   </div>
-  <div class="cv-entry__period">Jun 2023 – Jul 2025</div>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-entry__logo">
-    <span class="logo-wrap"><img src="{{ '/images/logos/yamaha_motor_logo.png' | relative_url }}" alt="Yamaha Motor"></span>
-  </div>
-  <div class="cv-entry__body">
-    <p class="cv-entry__title">Control Engineer</p>
-    <p class="cv-entry__subtitle">Yamaha Motor Corporation, USA — DockPoint auto-docking system</p>
-  </div>
-  <div class="cv-entry__period">Mar – Jun 2023</div>
+  <div class="cv-entry__period">Mar 2023 – Jul 2025</div>
 </div>
 
 <div class="cv-entry">

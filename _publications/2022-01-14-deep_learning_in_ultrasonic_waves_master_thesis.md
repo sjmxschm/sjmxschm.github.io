@@ -6,6 +6,7 @@ permalink: /publication/2022-01-14-deep_learning_in_ultrasonic_waves_master_thes
 venue: "Georgia Tech"
 date: 2022-01-14
 location: "Atlanta, GA"
+authors: "Maximilian Schmitz"
 excerpt: "Master's thesis: deep learning inversion of ultrasonic Lamb waves for thin coating thickness and uniformity characterization."
 abstract: 'Master\'s thesis investigating machine and deep learning for nondestructive characterization of thin coating quality — thickness and uniformity — in layered systems. Dispersion curves obtained from FEA-simulated Lamb waves are processed via 2D-FFT into frequency–wavenumber maps. ML classifiers handle uniform thickness prediction; two CNN architectures extend this to non-uniform coatings. The work evaluates both networks and provides guidance on architecture selection and practical deployment.'
 paperurl: "http://hdl.handle.net/1853/66518"

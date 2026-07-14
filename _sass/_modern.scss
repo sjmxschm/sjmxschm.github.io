@@ -584,6 +584,13 @@ a.pub-btn--download {
   }
 }
 
+.pub-card__authors {
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+  color: $gray;
+  font-style: italic;
+}
+
 .pub-card__citation {
   margin-top: 0.75rem;
   font-size: 0.8rem;
@@ -658,6 +665,19 @@ a.pub-btn--download {
   background: rgba(#fbbf24, 0.12);
   color: #fbbf24;
   border: 1px solid rgba(#fbbf24, 0.25);
+
+  &--guest-lecture {
+    background: rgba(#60a5fa, 0.12);
+    color: #60a5fa;
+    border-color: rgba(#60a5fa, 0.25);
+  }
+
+  &--student-supervision,
+  &--student-project {
+    background: rgba(#a78bfa, 0.12);
+    color: #a78bfa;
+    border-color: rgba(#a78bfa, 0.25);
+  }
 }
 
 .teaching-card__year {
@@ -714,6 +734,70 @@ a.pub-btn--download {
   &:hover {
     color: $link-color-hover;
     text-decoration: underline;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   NEWS SECTION
+   -------------------------------------------------------------------------- */
+
+.news-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $border-color;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.news-item {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.7rem 1rem;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-left: 3px solid $primary-color;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.news-date {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: $primary-color;
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-width: 5.5rem;
+}
+
+.news-content {
+  color: $text-color;
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover { color: $link-color-hover; text-decoration: underline; }
+  }
+
+  strong { color: #e2e8f0; font-weight: 600; }
+}
+
+@media (max-width: 600px) {
+  .news-item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .news-date {
+    font-size: 0.72rem;
   }
 }
 
@@ -857,10 +941,6 @@ select {
   white-space: nowrap;
   flex-shrink: 0;
   align-self: center;
-
-  @media (max-width: 600px) {
-    display: none;
-  }
 }
 
 /* Contact / CTA block at top of CV */
@@ -932,6 +1012,136 @@ select {
 }
 
 /* --------------------------------------------------------------------------
+   MUSIC PAGE
+   -------------------------------------------------------------------------- */
+
+.music-player {
+  margin: 1.75rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid $border-color;
+}
+
+.music-section-title {
+  font-size: 0.72rem !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $primary-color !important;
+  margin: 1.75rem 0 1rem !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $border-color !important;
+}
+
+.music-platforms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.music-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: $primary-color;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+}
+
+.music-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  background: rgba($primary-color, 0.12);
+  color: $primary-color;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.music-card--soundcloud .music-card__icon {
+  background: rgba(#ff5500, 0.12);
+  color: #ff5500;
+}
+
+.music-card--spotify .music-card__icon {
+  background: rgba(#1db954, 0.12);
+  color: #1db954;
+}
+
+.music-card--linktree .music-card__icon {
+  background: rgba(#39e09b, 0.12);
+  color: #39e09b;
+}
+
+.music-card__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.music-card__name {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.music-card__desc {
+  font-size: 0.78rem;
+  color: $gray;
+}
+
+.music-card__arrow {
+  font-size: 0.9rem;
+  color: $gray;
+  transition: color 0.15s ease, transform 0.15s ease;
+  flex-shrink: 0;
+}
+
+.music-card:hover .music-card__arrow {
+  color: $primary-color;
+  transform: translateX(2px);
+}
+
+.music-contact {
+  margin-top: 0.5rem;
+  padding: 1rem 1.25rem;
+  background: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: $gray;
+
+  p { margin: 0; }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
    Mobile responsiveness
    -------------------------------------------------------------------------- */
 
@@ -953,5 +1163,31 @@ select {
   .pub-btn {
     justify-content: center;
     width: 100%;
+    min-height: 44px;
+    padding: 0.55rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .pub-filter-btn {
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+    font-size: 0.82rem;
+  }
+
+  .cv-entry {
+    flex-wrap: wrap;
+  }
+
+  .music-platforms {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-entry__period {
+    flex-basis: 100%;
+    text-align: right;
+    margin-top: 0.4rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid $border-color;
+    font-size: 0.72rem;
   }
 }
