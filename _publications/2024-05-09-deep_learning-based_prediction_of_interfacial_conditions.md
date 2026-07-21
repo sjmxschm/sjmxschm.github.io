@@ -37,6 +37,7 @@ This paper proposes a framework of using deep learning-assisted methods for the 
 
 Recommended citation: 
 
+{% raw %}
 ```
 @inproceedings{10.1117/12.3010200,
 author = {Junzhen Wang and Maximilian Schmitz and Laurence J. Jacobs and Jianmin Qu},
@@ -53,3 +54,4 @@ doi = {10.1117/12.3010200},
 URL = {https://doi.org/10.1117/12.3010200}
 }
 ```
+{% endraw %}
