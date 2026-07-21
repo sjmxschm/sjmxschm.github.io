@@ -1087,6 +1087,29 @@ select {
   color: #39e09b;
 }
 
+.music-card--inactive {
+  opacity: 0.6;
+
+  &:hover {
+    border-color: $border-color;
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+.music-card__badge--inactive {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $gray;
+  background: rgba($gray, 0.12);
+  border: 1px solid rgba($gray, 0.3);
+  border-radius: 999px;
+  padding: 0.15rem 0.5rem;
+  transition: none;
+}
+
 .music-card__body {
   flex: 1;
   min-width: 0;

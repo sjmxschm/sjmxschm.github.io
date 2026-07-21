@@ -49,13 +49,13 @@ Music has always been a central part of my life — from playing piano to produc
     <span class="music-card__arrow">→</span>
   </a>
 
-  <a href="https://www.djmakz.de/" class="music-card music-card--dj" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.djmakz.de/" class="music-card music-card--dj music-card--inactive" target="_blank" rel="noopener noreferrer">
     <span class="music-card__icon"><i class="fas fa-compact-disc"></i></span>
     <div class="music-card__body">
       <span class="music-card__name">DJ Website</span>
-      <span class="music-card__desc">Sets, mixes &amp; booking</span>
+      <span class="music-card__desc">Currently inactive</span>
     </div>
-    <span class="music-card__arrow">→</span>
+    <span class="music-card__badge--inactive">Inactive</span>
   </a>
 
 </div>

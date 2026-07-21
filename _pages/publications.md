@@ -126,12 +126,12 @@ author_profile: true
 </div>
 
 <script>
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
   var activeYear = 'all';
   var activeType = 'all';
 
   function filterCards() {
-    var cards = document.querySelectorAll('.pub-card');
+    var cards = Array.from(document.querySelectorAll('.pub-card'));
     var visible = 0;
     cards.forEach(function (card) {
       var yearMatch = activeYear === 'all' || card.dataset.year === activeYear;
@@ -143,14 +143,15 @@ author_profile: true
         card.style.display = 'none';
       }
     });
-    document.getElementById('pub-empty').style.display = visible === 0 ? '' : 'none';
+    var emptyEl = document.getElementById('pub-empty');
+    if (emptyEl) emptyEl.style.display = visible === 0 ? '' : 'none';
   }
 
-  document.querySelectorAll('.pub-filter-btn').forEach(function (btn) {
+  Array.from(document.querySelectorAll('.pub-filter-btn')).forEach(function (btn) {
     btn.addEventListener('click', function () {
       var group = this.dataset.filter;
       var val = this.dataset.value;
-      document.querySelectorAll('.pub-filter-btn[data-filter="' + group + '"]').forEach(function (b) {
+      Array.from(document.querySelectorAll('.pub-filter-btn[data-filter="' + group + '"]')).forEach(function (b) {
         b.classList.remove('active');
       });
       this.classList.add('active');
@@ -160,11 +161,11 @@ author_profile: true
     });
   });
 
-  // Abstract toggle
-  document.querySelectorAll('.pub-abstract-toggle').forEach(function (btn) {
+  Array.from(document.querySelectorAll('.pub-abstract-toggle')).forEach(function (btn) {
     btn.addEventListener('click', function () {
       var card = this.closest('.pub-card');
-      var abstract = card.querySelector('.pub-card__abstract');
+      var abstract = card ? card.querySelector('.pub-card__abstract') : null;
+      if (!abstract) return;
       var expanded = this.getAttribute('aria-expanded') === 'true';
       this.setAttribute('aria-expanded', String(!expanded));
       var chevron = this.querySelector('.pub-btn__chevron');
@@ -174,8 +175,18 @@ author_profile: true
     });
   });
 
-  // Copy BibTeX
-  document.querySelectorAll('.pub-bibtex-copy').forEach(function (btn) {
+  function fallbackCopy(text, callback) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    try { document.execCommand('copy'); callback(); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+
+  Array.from(document.querySelectorAll('.pub-bibtex-copy')).forEach(function (btn) {
     btn.addEventListener('click', function () {
       var bibtex = this.dataset.bibtex;
       var self = this;
@@ -199,16 +210,5 @@ author_profile: true
       }
     });
   });
-
-  function fallbackCopy(text, callback) {
-    var ta = document.createElement('textarea');
-    ta.value = text;
-    ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
-    document.body.appendChild(ta);
-    ta.focus();
-    ta.select();
-    try { document.execCommand('copy'); callback(); } catch (e) {}
-    document.body.removeChild(ta);
-  }
-})();
+});
 </script>
